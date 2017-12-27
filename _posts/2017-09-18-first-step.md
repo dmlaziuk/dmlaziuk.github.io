@@ -19,7 +19,7 @@ I wrote my first CV:
 - **Hold position:** foreman
 - **Developed projects:**
 1. Keyboard trainer. **C/C++**
-2. Construction reinforcment. **AutoCAD/AutoLISP**
+2. Construction reinforcement. **AutoCAD/AutoLISP**
 3. English-Russian dictionary. **XML/XSLT/HTML**
 4. Phonebook. **Java/Spring**
 - **Skills/Technologies:**
@@ -45,7 +45,9 @@ I waited for feedback for almost two weeks and finaly entered Ruby couses at [Ru
 Nowadays I understand that I made the right decision.
 Because choosing Ruby courses gave me ground knowledge in full-stack web-development, rather than some Java framework.
 
-This was my first step in long road becoming a programmer.
+This was my first step.
+
+I did it.
 
 [SAM]: https://sam-solutions.by
 [Rubyroid]: https://rubyroidlabs.com

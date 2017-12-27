@@ -1,5 +1,5 @@
 .DS_*
-.idea/*
+.idea
 _site
 .sass-cache
 .jekyll-metadata
