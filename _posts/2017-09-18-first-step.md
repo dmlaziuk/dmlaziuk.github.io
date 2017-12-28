@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The long road starts with first step"
 date:   2017-09-18
 ---
