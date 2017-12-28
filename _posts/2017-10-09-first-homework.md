@@ -6,7 +6,7 @@ The first homework was challenging.
 
 The task was to parse data stored in binary tree and visualise the tree.
 
-For example:
+For example given array:
 ```
 arr = [1 ,[[2 ,[4 , 5 ]],[3,[6,7]]]]
 ```
@@ -137,9 +137,9 @@ if name
       puts name + '.tree'
       puts tree
       if tree.sum > CUT_SUM
-        puts 'Fell.'
-      elsif tree.depth > TRIM_DEPTH
         puts 'Cut.'
+      elsif tree.depth > TRIM_DEPTH
+        puts 'Trim.'
       else
         puts 'Leave.'
       end
@@ -160,10 +160,10 @@ else
       puts entry.name
       puts tree
       if tree.sum > CUT_SUM
-        puts 'Fell.'
+        puts 'Cut.'
         cut += 1
       elsif tree.depth > TRIM_DEPTH
-        puts 'Cut.'
+        puts 'Trim.'
         trim += 1
       else
         puts 'Leave.'
@@ -173,11 +173,40 @@ else
       q = gets
       break if q[0, 1] == 'n'
     end
-    puts 'Processed ' + trees.to_s + ' trees, which:'
+    puts 'Proceded ' + trees.to_s + ' trees, which:'
     puts '-- leave ' + leave.to_s
-    puts '-- cut ' + trim.to_s
-    puts '-- fell ' + cut.to_s
-    puts 'Thanks for being in our forest.'
+    puts '-- trim ' + trim.to_s
+    puts '-- cut ' + cut.to_s
+    puts 'Thanks for being in our forest'
   end
 end
 {% endhighlight %}
+
+The sample output looks like this:
+```
+$ ruby trees.rb
+trees/alica.tree
+                                 30
+                                 /\
+                  1                              35
+                 /\                              /\
+          5              19              46              22
+         /\              /\              /\              /\
+     10      38      10      29      36      44      19      46
+     /\      /\      /\      /\      /\      /\      /\      /\
+   14  38   7  18  19  16   8   7  19  22   7  15  17  42  16   7
+Leave.
+Continue? [y/n]
+n
+Proceded 1 trees, which:
+-- leave 1
+-- trim 0
+-- cut 0
+Thanks for being in our forest
+```
+Sample video available on [RecordIt][RecordIt]
+
+Source files available on [GitHub][GitHub] in branch `dm-homework-1`.
+
+[RecordIt]: http://recordit.co/sZkVIywarq
+[GitHub]: https://github.com/dmlaziuk/bsuir-courses.git
