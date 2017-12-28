@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The long road starts with first step"
-date:   2017-09-18 22:38:00 +0300
+date:   2017-09-18
 ---
 
 In my 38 years old I decided to change my career from Building industry to Software engineering.
