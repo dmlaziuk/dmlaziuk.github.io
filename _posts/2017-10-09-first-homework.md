@@ -23,7 +23,7 @@ There were 3 levels:
 2. If not given a NAME print out all trees in ascending order.
 3. Same as previous, but warn if depth of the tree greater then 5 or summ of all leaves is greater then 5000.
 
-The code is here:
+The code for all 3 levels is here:
 {% highlight ruby %}
 require 'zip'
 require 'json'
@@ -65,8 +65,6 @@ class TreeHash
     end
     str.join("\n")
   end
-
-  private
 
   # parse -- recursively parse all nodes of the tree, stored in arr[]
   #          and form hash table @hash = { [y, x] = value }
