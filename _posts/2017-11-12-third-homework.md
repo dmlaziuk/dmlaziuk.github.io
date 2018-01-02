@@ -47,12 +47,12 @@ Used books:
 1. [The Little Redis Book][RedisBook]
 2. [Ferret][FerretBook]
 
-`Procfile`:
+Source code for `Procfile`:
 ```Procfile
 bot: ruby comingoutbot.rb
 ```
 
-`Gemfile`:
+Source code for `Gemfile`:
 ```Gemfile
 ruby '2.4.1'
 
@@ -62,7 +62,7 @@ gem 'redis'
 gem 'telegram-bot-ruby'
 ```
 
-`comingoutbot.rb`:
+Source code for `comingoutbot.rb`:
 ```ruby
 #!/usr/bin/env ruby
 require_relative 'lib/comingout'
@@ -70,7 +70,7 @@ require_relative 'lib/comingout'
 Comingout::Bot.new.run
 ```
 
-`lib/comingout.rb`:
+Source code for `lib/comingout.rb`:
 ```ruby
 require_relative 'comingout/constants'
 require_relative 'comingout/comingout_db'
@@ -80,12 +80,12 @@ require_relative 'comingout/parse_ru_wikipedia'
 require_relative 'comingout/bot'
 ```
 
-`lib/comingout/constants.rb`:
+Source code for `lib/comingout/constants.rb`:
 ```ruby
 module Comingout
   DB = 'lgbt'.freeze
   DB_INDEX = 'lgbt:index'.freeze
-  TELEGRAM_TOKEN = '468538105:AAGDePSk0XwZU7J2QvsLwBDU7i24adkVit4'.freeze
+  TELEGRAM_TOKEN = 'your token'.freeze
 
   RU_EN = { 'А' => 'A', 'а' => 'a', 'Б' => 'B', 'б' => 'b',
             'В' => 'V', 'в' => 'v', 'Г' => 'G', 'г' => 'g',
@@ -113,7 +113,7 @@ module Comingout
 end
 ```
 
-`lib/comingout/comingout_db.rb`:
+Source code for `lib/comingout/comingout_db.rb`:
 ```ruby
 require 'redis'
 require 'ferret'
@@ -161,7 +161,7 @@ module Comingout
 end
 ```
 
-`lib/comingout/parse_imdb.rb`:
+Source code for `lib/comingout/parse_imdb.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'constants'
@@ -197,7 +197,7 @@ module Comingout
 end
 ```
 
-`lib/comingout/parse_wikipedia.rb`:
+Source code for `lib/comingout/parse_wikipedia.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'constants'
@@ -248,7 +248,7 @@ module Comingout
 end
 ```
 
-`lib/comingout/parse_ru_wikipedia.rb`:
+Source code for `lib/comingout/parse_ru_wikipedia.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'constants'
@@ -292,7 +292,7 @@ module Comingout
 end
 ```
 
-`lib/comingout/bot.rb`:
+Source code for `lib/comingout/bot.rb`:
 ```ruby
 require 'telegram/bot'
 require_relative 'constants'
