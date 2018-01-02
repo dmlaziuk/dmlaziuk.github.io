@@ -241,5 +241,5 @@ Sample video is available on [RecordIt][RecordIt].
 Source files are available on [GitHub][GitHub].
 
 [Server]: {{ site.url }}/data/tetris-servers.zip
-[RecordIt]: http://recordit.co/tQAyvEpFmL
+[RecordIt]: http://recordit.co/fwrVX4KOsR
 [GitHub]: https://github.com/dmlaziuk/codenjoy_client/tree/master/ruby
