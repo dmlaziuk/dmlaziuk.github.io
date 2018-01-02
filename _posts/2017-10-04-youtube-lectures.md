@@ -19,6 +19,6 @@ All lectures from the Ruby on Rails course are available on [Youtube](https://ww
 14. [Rails background jobs. Rails action cable](https://youtu.be/J3ibzAU4Dro)
 15. [Deploying Rails Application](https://youtu.be/_xLn0juHZAU)
 
-Schedule available on [Googke docs](https://docs.google.com/spreadsheets/d/123BdCumkADR86IJxF5orfNEfTPiC0tOLaqeFdol83qg/edit#gid=0).
+Schedule available on [Google docs](https://docs.google.com/spreadsheets/d/123BdCumkADR86IJxF5orfNEfTPiC0tOLaqeFdol83qg/edit#gid=0).
 
 Text lectures available on [Github](https://github.com/Saicheg/courses.git)
