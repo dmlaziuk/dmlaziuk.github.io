@@ -14,10 +14,6 @@ plugins:
   - jekyll-feed
 
 defaults:
-  - scope:
-      path: "images"
-    values:
-      image: true
   -
     scope:
       path: "_posts"
