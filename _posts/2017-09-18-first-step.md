@@ -39,7 +39,7 @@ I wrote my first CV:
   - OS/2
   - macOS
 
-I waited for feedback for almost two weeks and finaly entered Ruby couses at [Rubyroid labs][Rubyroid].
+I waited for feedback for almost two weeks and finaly entered [Ruby couses][Courses] at [Rubyroid labs][Rubyroid].
 
 Nowadays I understand that I made the right decision.
 Because choosing Ruby courses gave me ground knowledge in full-stack web-development, rather than some Java framework.
@@ -49,4 +49,5 @@ It was my first step.
 I did it.
 
 [SAM]: https://sam-solutions.by
-[Rubyroid]: https://rubyroidlabs.com
+[Rubyroid]: https://rubyroidlabs.com 
+[Courses]: http://rubyroid.by/courses
