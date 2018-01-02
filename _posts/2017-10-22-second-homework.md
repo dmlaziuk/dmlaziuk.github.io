@@ -2,7 +2,9 @@
 title:  "Second homework"
 date:   2017-10-22
 ---
-The second homework was about [King of the Dot][KOTD] rap-battles.
+[![King of the Dot](images/kotd.jpg)][KOTD]
+
+The second homework was about [King of the Dot][KOTD] rap battles.
 
 The task was to determine winner in each battle.
 Lyrics were taken from [Genius.com][Genius].
