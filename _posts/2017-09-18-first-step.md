@@ -1,5 +1,5 @@
 ---
-title:  "The long road starts with first step"
+title:  "Long road starts with the first step"
 date:   2017-09-18
 ---
 
@@ -44,7 +44,7 @@ I waited for feedback for almost two weeks and finaly entered Ruby couses at [Ru
 Nowadays I understand that I made the right decision.
 Because choosing Ruby courses gave me ground knowledge in full-stack web-development, rather than some Java framework.
 
-This was my first step.
+It was my first step.
 
 I did it.
 
