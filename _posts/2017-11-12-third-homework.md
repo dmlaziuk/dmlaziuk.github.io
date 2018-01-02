@@ -39,7 +39,7 @@ lgbt:name:kevin => "13" "14"
 lgbt:name:williamson => "14"
 ```
 
-[gem 'ferret'][Ferret] is used for fuzzy search.
+[`gem 'ferret'`][FerretGem] is used for fuzzy search.
 
 This bot runs on [heroku.com](https://herokuapp.com) and is available on Telegram as [@cominoutbot][CominoutBot]
 
