@@ -202,9 +202,9 @@ Proceded 1 trees, which:
 -- cut 0
 Thanks for being in our forest
 ```
-Sample video available on [RecordIt][RecordIt]
+Sample video is available on [RecordIt][RecordIt].
 
-Source files available on [GitHub][GitHub] in branch `dm-homework-1`.
+Source files are available on [GitHub][GitHub].
 
 [RecordIt]: http://recordit.co/sZkVIywarq
-[GitHub]: https://github.com/dmlaziuk/bsuir-courses.git
+[GitHub]: https://github.com/dmlaziuk/bsuir-courses/tree/dm-homework-1/2017/DmLaziuk/1
