@@ -5,7 +5,7 @@ date:   2017-10-22
 The second homework was about [King of the Dot][KOTD] rap-battles.
 
 The task was to determine winner in each battle.
-Lyrics is taken from [Genius.com][Genius].
+Lyrics were taken from [Genius.com][Genius].
 The criteria is the number of letters spelled by each participant in the battle.
 You may also choose name of the participant and your own criteria.
 
