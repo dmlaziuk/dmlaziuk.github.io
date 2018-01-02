@@ -6,7 +6,7 @@ All lectures from the Ruby on Rails course are available on [Youtube][Playlits]:
 1. [Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons](https://youtu.be/x75YRjBV-w0)
 2. [Ruby basics. Classes and modules](https://youtu.be/t7r9qeLuy5M)
 3. [Classes and Modules. Ruby Object Model. Lambdas vs Procs vs Blocks](https://youtu.be/b_IgPqu8-7c)
-4. [Metaprogramming.](https://youtu.be/P4KvsTOE968)
+4. [Metaprogramming](https://youtu.be/P4KvsTOE968)
 5. [Ruby Tips and Tricks. Array, Hash methods](https://youtu.be/YGIQ7LR5oYU)
 6. [Gems. Ruby testing](https://youtu.be/S-7q2P4VpLg)
 7. [Web basics. Rack](https://youtu.be/HsVSI6ODXw4)
