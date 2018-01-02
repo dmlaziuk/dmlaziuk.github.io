@@ -22,7 +22,7 @@ To start the server type `$ java -jar start.jar`. The server starts at localhost
 To run a client you have to install `gem 'codenjoy_connection'`.
 Then you need to register at `localhost:8080` and type your `name`, `port` and `host_ip` in client.rb.
 
-Source code for client.rb:
+Source code for `client.rb`:
 ```ruby
 require 'codenjoy_connection'
 require_relative 'player'
@@ -36,7 +36,7 @@ opts = { username: user, host: host_ip, port: port, game_url: 'ws?' }
 player = Player.new
 CodenjoyConnection.play(player, opts)
 ```
-Source code for player.rb:
+Source code for `player.rb`:
 ```ruby
 class Player
 

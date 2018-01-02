@@ -15,8 +15,8 @@ You may also choose name of the participant and your own criteria.
 $ NAME=DNA CRITERIA=you ruby kotd.rb
 ```
 
-Source code for kotd.rb:
-{% highlight ruby %}
+Source code for `kotd.rb`:
+```ruby
 require 'mechanize'
 require_relative 'kotd_battle'
 
@@ -81,10 +81,10 @@ end
 name = ENV['NAME']
 criteria = ENV['CRITERIA']
 Kotd.new(name, criteria).run
-{% endhighlight %}
+```
 
-Source code for kotd_battle.rb:
-{% highlight ruby %}
+Source code for `kotd_battle.rb`:
+```ruby
 require 'mechanize'
 
 class KotdBattle
@@ -156,7 +156,7 @@ class KotdBattle
     @count.each { |key, value| @winners << key if value == @score }
   end
 end
-{% endhighlight %}
+```
 
 The sample output:
 ```

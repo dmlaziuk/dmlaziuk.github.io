@@ -7,7 +7,7 @@ The first homework was challenging.
 The task was to parse data stored in binary tree and visualise the tree.
 
 For example given array:
-```
+```ruby
 arr = [1 ,[[2 ,[4 , 5 ]],[3,[6,7]]]]
 ```
 You have to output something like this:
@@ -24,7 +24,7 @@ There were 3 levels:
 3. Same as previous, but warn if depth of the tree greater then 5 or summ of all leaves is greater then 5000.
 
 The code for all 3 levels is here:
-{% highlight ruby %}
+```ruby
 require 'zip'
 require 'json'
 # require_relative 'tree_hash'
@@ -178,7 +178,7 @@ else
     puts 'Thanks for being in our forest'
   end
 end
-{% endhighlight %}
+```
 
 The sample output looks like this:
 ```

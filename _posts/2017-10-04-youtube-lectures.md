@@ -2,7 +2,7 @@
 title:  "Youtube lectures"
 date:   2017-10-04
 ---
-All lectures from the Ruby on Rails course are available on [Youtube](https://www.youtube.com/watch?v=x75YRjBV-w0&list=PL9LUlh0qu4656iJ4J8gMfOE6YiZ4QJ5bl)
+All lectures from the Ruby on Rails course are available on [Youtube](https://www.youtube.com/watch?v=x75YRjBV-w0&list=PL9LUlh0qu4656iJ4J8gMfOE6YiZ4QJ5bl):
 1. [Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons](https://youtu.be/x75YRjBV-w0)
 2. [Ruby basics. Classes and modules](https://youtu.be/t7r9qeLuy5M)
 3. [Classes and Modules. Ruby Object Model. Lambdas vs Procs vs Blocks](https://youtu.be/b_IgPqu8-7c)
@@ -21,4 +21,4 @@ All lectures from the Ruby on Rails course are available on [Youtube](https://ww
 
 Schedule available on [Google docs](https://docs.google.com/spreadsheets/d/123BdCumkADR86IJxF5orfNEfTPiC0tOLaqeFdol83qg/edit#gid=0).
 
-Text lectures available on [Github](https://github.com/Saicheg/courses.git)
+Text lectures available on [Github](https://github.com/Saicheg/courses.git).
