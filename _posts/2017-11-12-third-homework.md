@@ -9,7 +9,7 @@ Inspired by recent [coming out by Kevin Spacey](https://news.tut.by/culture/5667
 
 Instructions on creating Telegram bot and deploying it on Heroku described [here][Heroku].
 
-Data parsed from [wikipedia.org][Wikipedia] and [IMDB.com][IMDB] and stored in Redis database in the following format:
+Data parsed from [wikipedia.org][Wikipedia] and [IMDB.com][IMDB] are stored in Redis database in the following format:
 ```
 lgbt:index (String) -- current index (increased on adding)
 
@@ -39,8 +39,8 @@ lgbt:name:kevin => "13" "14"
 lgbt:name:williamson => "14"
 ```
 
-[`gem 'ferret'`][Ferret] is used for fuzzy search.
- 
+[gem 'ferret'][Ferret] is used for fuzzy search.
+
 This bot runs on [heroku.com](https://herokuapp.com) and is available on Telegram as [@cominoutbot][CominoutBot]
 
 Used books:
