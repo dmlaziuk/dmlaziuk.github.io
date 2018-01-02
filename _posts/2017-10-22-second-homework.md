@@ -227,9 +227,9 @@ DNA WINS!
 DNA wins 5 times, loses 6 times
 ```
 
-Sample video is available on [RecordIt][RecordIt]
+Sample video is available on [RecordIt][RecordIt].
 
-Source files are available on [GitHub][GitHub] in branch `dm-homework-2`.
+Source files are available on [GitHub][GitHub].
 
 [KOTD]: https://www.youtube.com/user/KingOfTheDot
 [Genius]: https://genius.com/artists/King-of-the-dot
