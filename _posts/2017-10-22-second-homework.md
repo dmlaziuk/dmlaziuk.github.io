@@ -2,7 +2,7 @@
 title:  "Second homework"
 date:   2017-10-22
 ---
-[![King of the Dot](images/kotd.jpg)][KOTD]
+![King of the Dot]({{ "/images/kotd.jpg" | absolute_url }})
 
 The second homework was about [King of the Dot][KOTD] rap battles.
 
