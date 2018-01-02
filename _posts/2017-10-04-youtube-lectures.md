@@ -19,4 +19,4 @@ All lectures from the Ruby on Rails course are available on [Youtube][Playlits]:
 14. [Rails background jobs. Rails action cable](https://youtu.be/J3ibzAU4Dro)
 15. [Deploying Rails Application](https://youtu.be/_xLn0juHZAU)
 
-[Playlits]: http://recordit.co/sZkVIywarq
+[Playlits]: https://www.youtube.com/watch?v=x75YRjBV-w0&list=PL9LUlh0qu4656iJ4J8gMfOE6YiZ4QJ5bl
