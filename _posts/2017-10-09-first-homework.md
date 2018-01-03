@@ -180,7 +180,7 @@ else
 end
 ```
 
-The sample output looks like this:
+Sample output looks like this:
 ```
 $ ruby trees.rb
 trees/alica.tree
