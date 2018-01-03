@@ -6,7 +6,7 @@ date:   2017-11-09
 
 On the third workshop we had to write our own implementation of the game of Life.
 
-Source code `life.rb`:
+Source code of `life.rb`:
 ```ruby
 require_relative 'game_of_life'
 
@@ -21,7 +21,7 @@ loop do
 end
 ```
 
-Source code `game_of_life.rb`:
+Source code of `game_of_life.rb`:
 ```ruby
 class GameOfLife
   X_SIZE = 100
