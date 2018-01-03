@@ -42,7 +42,7 @@ Level 8:
 **Question**: One line from any verse with shuffled letterss order (punctuation removed) and one letter changed.  
   **Answer**: Original line.
 
-Source code for `config.ru`:
+Source code of `config.ru`:
 ```ruby
 require 'rack'
 require_relative 'pushkin-contest-bot'
@@ -50,7 +50,7 @@ require_relative 'pushkin-contest-bot'
 run PushkinContestBot.new
 ```
 
-Source code for `pushkin-contest-bot.rb`:
+Source code of `pushkin-contest-bot.rb`:
 ```ruby
 require 'benchmark'
 require 'json'
@@ -133,7 +133,7 @@ class PushkinContestBot
 end
 ```
 
-Source code for `lib/pushkin.rb`:
+Source code of `lib/pushkin.rb`:
 ```ruby
 require_relative 'verse'
 
@@ -299,7 +299,7 @@ class Pushkin
 end
 ```
 
-Source code for `lib/verse.rb`:
+Source code of `lib/verse.rb`:
 ```ruby
 require_relative 'line'
 
@@ -314,7 +314,7 @@ class Verse
 end
 ```
 
-Source code for `lib/line.rb`:
+Source code of `lib/line.rb`:
 ```ruby
 require_relative 'word'
 
@@ -336,7 +336,7 @@ class Line
 end
 ```
 
-Source code for `lib/word.rb`:
+Source code of `lib/word.rb`:
 ```ruby
 class Word
   attr_reader :word
@@ -353,7 +353,7 @@ class Word
 end
 ```
 
-Source code for `parse.rb`:
+Source code of `parse.rb`:
 ```ruby
 require 'benchmark'
 require 'mechanize'
