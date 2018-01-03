@@ -158,7 +158,7 @@ class KotdBattle
 end
 ```
 
-The sample output:
+Sample output looks like this:
 ```
 $ NAME=DNA CRITERIA=you ruby kotd.rb
 Initializing...
