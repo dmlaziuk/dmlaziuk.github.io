@@ -9,7 +9,7 @@ The main theme of this homework was to connect people affected by hype in both b
 This is simple Rails B2B application. In our context it transcribes as Bonstick2Bitcoin.
 
 The task was to develop billboard with notices.
-Here everyone can write what he want to sell or buy(bonsticks or bitcoins).
+Here everyone can write what he want to sell or buy (bonsticks or bitcoins).
 Comments to notices are allowed. In comments you can add contact information or just chat.
 
 Pagination is implemented by `gem kaminari`.
@@ -27,6 +27,8 @@ btc_byr = pars['BTC_BYR']['val']
 puts btc_byr
 File.open("btc_byr.yml", "w") {|f| f.write(btc_byr.to_yaml) }
 ```
+
+The site is up and runing on [AWS][AWS].
 
 Sample video is available on [RecordIt][RecordIt].
 
