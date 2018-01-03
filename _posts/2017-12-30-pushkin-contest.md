@@ -98,6 +98,14 @@ end
 File.open('lyrics.yml', 'w') { |f| f.write(YAML.dump(verses)) }
 ```
 
+Source code for `config.ru`:
+```ruby
+require 'rack'
+require_relative 'pushkin-contest-bot'
+
+run PushkinContestBot.new
+```
+
 Source code for `pushkin-contest-bot.rb`:
 ```ruby
 require 'benchmark'
