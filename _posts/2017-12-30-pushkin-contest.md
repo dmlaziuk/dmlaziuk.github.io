@@ -59,7 +59,6 @@ page = agent.get(URL)
 links = page.xpath('//div[@class="list"]/p')
 total = links.size
 count = 1
-time = Tms.new
 total_time = Tms.new
 benchmark(CAPTION, 11, FORMAT, ' Total time', 'Averge time') do |bm|
   links.each do |link|
@@ -76,21 +75,12 @@ benchmark(CAPTION, 11, FORMAT, ' Total time', 'Averge time') do |bm|
       begin
         title2 ||= page.xpath('//div[@class="title"]/h1').text
         title2 = title if title2.empty?
-        # title2 = title if title2.include?('*')
-        #title2.gsub!(' ', '')
-        #title2.gsub!(/\d+$/, '')
-        #title2.gsub!(/\s+/, ' ')
         txt = page.xpath('//span[@class="vl"]')
         if txt.any?
           arr = []
           txt.each do |i|
             line = i.text
-            # line.gsub!(' ', ' ')
             line.gsub!("\u0097", '—')
-            # line.gsub!(/\d+$/, ' ')
-            # line.gsub!(/ \d+.$/, '.')
-            # line.gsub!(/\s+/, ' ')
-            # line.strip!
             arr << line
           end
           verses << [title2, arr]
@@ -411,12 +401,12 @@ class Word
 end
 ```
 
-In the contest I took **second** place.
-I'm very proud of it.
-
-Here are the results table (my name is dmlaziuk):
+Here is the results table:
 
 ![Pushkin]({{ "/images/pushkin.png" | absolute_url }})
+
+In the contest I took **second** place (my name is dmlaziuk).
+I'm very proud of it.
 
 Here is the statistics for single run:
 ```
