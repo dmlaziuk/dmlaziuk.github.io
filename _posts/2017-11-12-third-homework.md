@@ -47,12 +47,12 @@ Used books:
 1. [The Little Redis Book][RedisBook]
 2. [Ferret][FerretBook]
 
-Source code for `Procfile`:
+Source code of `Procfile`:
 ```Procfile
 bot: ruby comingoutbot.rb
 ```
 
-Source code for `Gemfile`:
+Source code of `Gemfile`:
 ```Gemfile
 ruby '2.4.1'
 
@@ -62,7 +62,7 @@ gem 'redis'
 gem 'telegram-bot-ruby'
 ```
 
-Source code for `comingoutbot.rb`:
+Source code of `comingoutbot.rb`:
 ```ruby
 #!/usr/bin/env ruby
 require_relative 'lib/comingout'
@@ -70,7 +70,7 @@ require_relative 'lib/comingout'
 Comingout::Bot.new.run
 ```
 
-Source code for `lib/comingout.rb`:
+Source code of `lib/comingout.rb`:
 ```ruby
 require_relative 'comingout/constants'
 require_relative 'comingout/comingout_db'
@@ -80,7 +80,7 @@ require_relative 'comingout/parse_ru_wikipedia'
 require_relative 'comingout/bot'
 ```
 
-Source code for `lib/comingout/constants.rb`:
+Source code of `lib/comingout/constants.rb`:
 ```ruby
 module Comingout
   DB = 'lgbt'.freeze
@@ -113,7 +113,7 @@ module Comingout
 end
 ```
 
-Source code for `lib/comingout/comingout_db.rb`:
+Source code of `lib/comingout/comingout_db.rb`:
 ```ruby
 require 'redis'
 require 'ferret'
@@ -161,7 +161,7 @@ module Comingout
 end
 ```
 
-Source code for `lib/comingout/parse_imdb.rb`:
+Source code of `lib/comingout/parse_imdb.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'constants'
@@ -197,7 +197,7 @@ module Comingout
 end
 ```
 
-Source code for `lib/comingout/parse_wikipedia.rb`:
+Source code of `lib/comingout/parse_wikipedia.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'constants'
@@ -248,7 +248,7 @@ module Comingout
 end
 ```
 
-Source code for `lib/comingout/parse_ru_wikipedia.rb`:
+Source code of `lib/comingout/parse_ru_wikipedia.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'constants'
@@ -292,7 +292,7 @@ module Comingout
 end
 ```
 
-Source code for `lib/comingout/bot.rb`:
+Source code of `lib/comingout/bot.rb`:
 ```ruby
 require 'telegram/bot'
 require_relative 'constants'
