@@ -15,7 +15,7 @@ You may also choose name of the participant and your own criteria.
 $ NAME=DNA CRITERIA=you ruby kotd.rb
 ```
 
-Source code for `kotd.rb`:
+Source code of `kotd.rb`:
 ```ruby
 require 'mechanize'
 require_relative 'kotd_battle'
@@ -83,7 +83,7 @@ criteria = ENV['CRITERIA']
 Kotd.new(name, criteria).run
 ```
 
-Source code for `kotd_battle.rb`:
+Source code of `kotd_battle.rb`:
 ```ruby
 require 'mechanize'
 
