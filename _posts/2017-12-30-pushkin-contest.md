@@ -42,62 +42,6 @@ Level 8:
 **Question**: One line from any verse with shuffled letterss order (punctuation removed) and one letter changed.  
   **Answer**: Original line.
 
-Source code for `parse.rb`:
-```ruby
-require 'benchmark'
-require 'mechanize'
-
-include Benchmark
-
-URL = 'http://ilibrary.ru/author/pushkin/l.all/index.html'.freeze
-
-agent = Mechanize.new
-agent.user_agent_alias = 'Mac Safari'
-
-verses = []
-page = agent.get(URL)
-links = page.xpath('//div[@class="list"]/p')
-total = links.size
-count = 1
-total_time = Tms.new
-benchmark(CAPTION, 11, FORMAT, ' Total time', 'Averge time') do |bm|
-  links.each do |link|
-    time = bm.report(format('%4d / %4d', count, total)) do
-      title = link.text.gsub(/ \(.*?\)/, '')
-      title.gsub!('', '')
-      title.gsub!(/\s+/, ' ')
-      quote = title.scan(/«(.*?)...»/)
-      title = quote[0][0] unless quote.empty?
-      url = "http://ilibrary.ru#{link.xpath('./a').attribute('href')}"
-      url.gsub!('index.html', 'p.1/index.html')
-      page = agent.get(url)
-      title2 = nil
-      begin
-        title2 ||= page.xpath('//div[@class="title"]/h1').text
-        title2 = title if title2.empty?
-        txt = page.xpath('//span[@class="vl"]')
-        if txt.any?
-          arr = []
-          txt.each do |i|
-            line = i.text
-            line.gsub!("\u0097", '—')
-            arr << line
-          end
-          verses << [title2, arr]
-        end
-        next_page = page.link_with(xpath: '//a[@title="Дальше"]')
-        page = next_page.click if next_page
-      end while next_page
-      count += 1
-    end
-    total_time += time
-  end
-  [total_time, total_time / (count - 1)]
-end
-
-File.open('lyrics.yml', 'w') { |f| f.write(YAML.dump(verses)) }
-```
-
 Source code for `config.ru`:
 ```ruby
 require 'rack'
@@ -407,6 +351,62 @@ class Word
     @chars_hash_arr = word.scan(/./).map(&:hash)
   end
 end
+```
+
+Source code for `parse.rb`:
+```ruby
+require 'benchmark'
+require 'mechanize'
+
+include Benchmark
+
+URL = 'http://ilibrary.ru/author/pushkin/l.all/index.html'.freeze
+
+agent = Mechanize.new
+agent.user_agent_alias = 'Mac Safari'
+
+verses = []
+page = agent.get(URL)
+links = page.xpath('//div[@class="list"]/p')
+total = links.size
+count = 1
+total_time = Tms.new
+benchmark(CAPTION, 11, FORMAT, ' Total time', 'Averge time') do |bm|
+  links.each do |link|
+    time = bm.report(format('%4d / %4d', count, total)) do
+      title = link.text.gsub(/ \(.*?\)/, '')
+      title.gsub!('', '')
+      title.gsub!(/\s+/, ' ')
+      quote = title.scan(/«(.*?)...»/)
+      title = quote[0][0] unless quote.empty?
+      url = "http://ilibrary.ru#{link.xpath('./a').attribute('href')}"
+      url.gsub!('index.html', 'p.1/index.html')
+      page = agent.get(url)
+      title2 = nil
+      begin
+        title2 ||= page.xpath('//div[@class="title"]/h1').text
+        title2 = title if title2.empty?
+        txt = page.xpath('//span[@class="vl"]')
+        if txt.any?
+          arr = []
+          txt.each do |i|
+            line = i.text
+            line.gsub!("\u0097", '—')
+            arr << line
+          end
+          verses << [title2, arr]
+        end
+        next_page = page.link_with(xpath: '//a[@title="Дальше"]')
+        page = next_page.click if next_page
+      end while next_page
+      count += 1
+    end
+    total_time += time
+  end
+  [total_time, total_time / (count - 1)]
+end
+
+File.open('lyrics.yml', 'w') { |f| f.write(YAML.dump(verses)) }
 ```
 
 Here is the results table:
