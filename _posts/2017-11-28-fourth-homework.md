@@ -15,7 +15,7 @@ Comments to notices are allowed. In comments you can add contact information or 
 Pagination is implemented by `gem kaminari`.
 
 Real exchange rate between bitcoin and BYR taken from web-API and stored in yaml format.
-Source code for `btc.rb`:
+Source code of `btc.rb`:
 ```ruby
 require 'yaml'
 require 'rest-client'
