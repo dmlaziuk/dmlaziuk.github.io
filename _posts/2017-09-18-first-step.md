@@ -1,6 +1,5 @@
 ---
 title:  "Long road starts with the first step"
-date:   2017-09-18
 ---
 
 In my 38 years old I decided to change my career from Building industry to Software engineering.

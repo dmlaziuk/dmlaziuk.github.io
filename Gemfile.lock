@@ -245,8 +245,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.6.2)
+  jekyll-feed (~> 0.6)
   minimal-mistakes-jekyll
-  tzinfo-data
   webrick
 
 BUNDLED WITH
