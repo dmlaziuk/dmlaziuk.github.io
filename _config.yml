@@ -10,14 +10,18 @@ github_username:  dmlaziuk
 
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
-# theme: minima
 plugins:
   - jekyll-feed
 
 defaults:
-  -
-    scope:
-      path: "_posts"
+  # _posts
+  - scope:
+      path: ""
+      type: posts
     values:
-      type: "single"
-    layout: "single"
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
