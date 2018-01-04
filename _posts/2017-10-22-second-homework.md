@@ -2,7 +2,7 @@
 title:  "Second homework"
 date:   2017-10-22
 ---
-The second homework was about [King of the Dot][KOTD] rap battles.
+The second homework was to judge [King of the Dot][KOTD] rap battles.
 
 [![King of the Dot]({{ "/images/kotd.jpg" | absolute_url }})][KOTD]
 

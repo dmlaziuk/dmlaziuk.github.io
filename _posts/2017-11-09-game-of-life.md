@@ -2,9 +2,9 @@
 title:  "Game of Life"
 date:   2017-11-09
 ---
-[![Life]({{ "/images/gospers_glider_gun.gif" | absolute_url }})][Life]
+On the third workshop we had to write our own implementation of the Game of Life.
 
-On the third workshop we had to write our own implementation of the game of Life.
+[![Life]({{ "/images/gospers_glider_gun.gif" | absolute_url }})][Life]
 
 Source code of `life.rb`:
 ```ruby

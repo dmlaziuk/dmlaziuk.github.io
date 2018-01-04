@@ -2,9 +2,9 @@
 title:  "Fourth homework"
 date:   2017-11-28
 ---
-[![B2B]({{ "/images/b2b.png" | absolute_url }})][AWS]
+The main theme of this homework is to connect people affected by hype in both bitcoins and bonsticks.
 
-The main theme of this homework was to connect people affected by hype in both bitcoins and bonsticks.
+[![B2B]({{ "/images/b2b.png" | absolute_url }})][AWS]
 
 This is simple Rails B2B application. In our context it transcribes as Bonstick2Bitcoin.
 

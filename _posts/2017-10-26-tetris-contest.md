@@ -2,9 +2,9 @@
 title:  "Tetris contest"
 date:   2017-10-26
 ---
-[![codenjoy.com]({{ "/images/codenjoy.jpg" | absolute_url }})][Server]
-
 On the second workshop we were struggling on tetris contest.
+
+[![codenjoy.com]({{ "/images/codenjoy.jpg" | absolute_url }})][Server]
 
 We had one dedicated server. All of us divided by pairs were clients.
 

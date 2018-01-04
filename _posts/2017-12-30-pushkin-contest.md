@@ -2,9 +2,9 @@
 title:  "Pushkin contest"
 date:   2017-12-30
 ---
-[![Pushkin]({{ "/images/pushkin.gif" | absolute_url }})][Pushkin]
-
 The resulting project in Ruby courses was Pushkin contest.
+
+[![Pushkin]({{ "/images/pushkin.gif" | absolute_url }})][Pushkin]
 
 Again dedicated server sends us questions and our clients have to respond answers.
 

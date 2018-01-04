@@ -2,7 +2,7 @@
 title:  "First homework"
 date:   2017-10-09
 ---
-The first homework was challenging.
+The first homework was challenging. It was about traversing binary trees.
 
 The task was to parse data stored in binary tree and visualise the tree.
 
