@@ -19,4 +19,4 @@ defaults:
     scope:
       path: "_posts"
     values:
-      type: "post"
+      type: "single"
