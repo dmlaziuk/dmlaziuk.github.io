@@ -8,9 +8,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/"
 url: "https://dmlaziuk.github.io"
 github_username:  dmlaziuk
-
-markdown: kramdown
+repository: "dmlaziuk/dmlaziuk.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
+markdown: kramdown
 #plugins:
 #  - jekyll-feed
 
@@ -18,6 +18,18 @@ words_per_minute: 100
 
 paginate: 8
 paginate_path: /page:num/
+
+author:
+  name   : "Dzmitry Laziuk"
+  avatar : "/images/avatar.png"
+  bio    : "Mature programmer."
+  email  : "dm.laziuk@gmail.com"
+  uri    : "https://github.com/dmlaziuk"
+  home   : "/about/"
+  location : "Minsk, Belarus"
+  facebook : "dzmitry.laziuk"
+  linkedin : "dm-laziuk"
+  github   : "dmlaziuk"
 
 include: ["_pages"]
 
