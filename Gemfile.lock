@@ -244,7 +244,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  minima (~> 2.0)
+  jekyll (~> 3.6.2)
   minimal-mistakes-jekyll
   tzinfo-data
   webrick
