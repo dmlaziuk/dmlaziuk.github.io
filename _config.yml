@@ -20,3 +20,4 @@ defaults:
       path: "_posts"
     values:
       type: "single"
+    layout: "single"
