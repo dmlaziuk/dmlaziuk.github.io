@@ -1,4 +1,3 @@
-#locale: en_US
 title: Learning curve
 author: Dzmitry Laziuk
 email: dm.laziuk@gmail.com
@@ -11,8 +10,6 @@ github_username:  dmlaziuk
 repository: "dmlaziuk/dmlaziuk.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 markdown: kramdown
-#plugins:
-#  - jekyll-feed
 
 words_per_minute: 100
 
@@ -22,7 +19,7 @@ paginate_path: /page:num/
 author:
   name   : "Dzmitry Laziuk"
   avatar : "/images/avatar.png"
-  bio    : "Mature programmer."
+  bio    : "Personal blog"
   email  : "dm.laziuk@gmail.com"
   uri    : "https://github.com/dmlaziuk"
   home   : "/about/"
