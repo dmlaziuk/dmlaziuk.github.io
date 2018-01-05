@@ -1,6 +1,8 @@
 ---
 title:  "Second homework"
 date:   2017-10-22
+header:
+  teaser: /images/kotd.jpg
 ---
 The second homework was to judge [King of the Dot][KOTD] rap battles.
 

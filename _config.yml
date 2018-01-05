@@ -16,7 +16,7 @@ markdown: kramdown
 
 words_per_minute: 100
 
-paginate: 8
+paginate: 20
 paginate_path: /page:num/
 
 author:
@@ -42,9 +42,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"

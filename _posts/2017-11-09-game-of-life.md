@@ -1,6 +1,8 @@
 ---
 title:  "Game of Life"
 date:   2017-11-09
+header:
+  teaser: /images/gospers_glider_gun.gif
 ---
 On the third workshop we had to write our own implementation of the Game of Life.
 

@@ -1,6 +1,8 @@
 ---
 title:  "Pushkin contest"
 date:   2017-12-30
+header:
+  teaser: /images/pushkin.gif
 ---
 The resulting project in Ruby courses was Pushkin contest.
 

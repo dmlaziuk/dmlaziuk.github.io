@@ -1,6 +1,8 @@
 ---
 title:  "Fourth homework"
 date:   2017-11-28
+header:
+  teaser: /images/b2b.png
 ---
 The main theme of this homework is to connect people affected by hype in both bitcoins and bonsticks.
 
