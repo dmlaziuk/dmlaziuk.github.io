@@ -6,7 +6,7 @@ header:
 ---
 The resulting project in Ruby courses was Pushkin contest.
 
-[![Pushkin]({{ "/images/pushkin.gif" | absolute_url }})][Pushkin]
+[![Pushkin]({{ "/images/pushkin2.gif" | absolute_url }}){: .align-center}][Pushkin]
 
 Again dedicated server sends us questions and our clients have to respond answers.
 
@@ -413,7 +413,7 @@ File.open('lyrics.yml', 'w') { |f| f.write(YAML.dump(verses)) }
 
 Here is the results table:
 
-![Pushkin]({{ "/images/pushkin.png" | absolute_url }})
+![Pushkin]({{ "/images/pushkin.png" | absolute_url }}){: .align-center}
 
 In the contest I took **second** place (my name is dmlaziuk).
 I'm very proud of it.

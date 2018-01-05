@@ -6,7 +6,7 @@ header:
 ---
 On the third workshop we had to write our own implementation of the Game of Life.
 
-[![Life]({{ "/images/gospers_glider_gun.gif" | absolute_url }})][Life]
+[![Life]({{ "/images/gospers_glider_gun.gif" | absolute_url }}){: .align-center}][Life]
 
 Source code of `life.rb`:
 ```ruby

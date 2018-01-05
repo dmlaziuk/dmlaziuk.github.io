@@ -6,7 +6,7 @@ header:
 ---
 On the second workshop we were struggling on tetris contest.
 
-[![codenjoy.com]({{ "/images/codenjoy.jpg" | absolute_url }})][Server]
+[![codenjoy.com]({{ "/images/codenjoy.jpg" | absolute_url }}){: .align-center}][Server]
 
 We had one dedicated server. All of us divided by pairs were clients.
 

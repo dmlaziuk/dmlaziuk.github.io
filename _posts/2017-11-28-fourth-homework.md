@@ -6,7 +6,7 @@ header:
 ---
 The main theme of this homework is to connect people affected by hype in both bitcoins and bonsticks.
 
-[![B2B]({{ "/images/b2b.png" | absolute_url }})][AWS]
+[![B2B]({{ "/images/b2b.png" | absolute_url }}){: .align-center}][AWS]
 
 This is simple Rails B2B application. In our context it transcribes as Bonstick2Bitcoin.
 

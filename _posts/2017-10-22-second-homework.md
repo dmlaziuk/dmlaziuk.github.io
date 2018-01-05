@@ -6,7 +6,7 @@ header:
 ---
 The second homework was to judge [King of the Dot][KOTD] rap battles.
 
-[![King of the Dot]({{ "/images/kotd.jpg" | absolute_url }})][KOTD]
+[![King of the Dot]({{ "/images/kotd.jpg" | absolute_url }}){: .align-center}][KOTD]
 
 The task was to determine winner in each battle.
 Lyrics were taken from [Genius.com][Genius].
