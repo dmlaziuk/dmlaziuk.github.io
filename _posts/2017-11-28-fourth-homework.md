@@ -32,10 +32,11 @@ File.open("btc_byr.yml", "w") {|f| f.write(btc_byr.to_yaml) }
 
 The site is up and runing on [AWS][AWS].
 
-Sample video is available on [RecordIt][RecordIt].
+Sample video:
+
+{% include video id="249877559" provider="vimeo" %}
 
 Source files are available on [GitHub][GitHub].
 
 [AWS]: http://ec2-18-217-123-149.us-east-2.compute.amazonaws.com/
-[RecordIt]: http://recordit.co/9ogkqbJSKX
 [GitHub]: https://github.com/dmlaziuk/bsuir-courses/tree/dm-homework-4/2017/DmLaziuk/b2b

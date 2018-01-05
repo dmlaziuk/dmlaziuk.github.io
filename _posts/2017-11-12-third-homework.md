@@ -416,7 +416,9 @@ module Comingout
 end
 ```
 
-Sample video is available on [RecordIt][RecordIt].
+Sample video:
+
+{% include video id="249877566" provider="vimeo" %}
 
 Source files are available on [GitHub][GitHub].
 
@@ -427,5 +429,4 @@ Source files are available on [GitHub][GitHub].
 [CominoutBot]: https://t.me/cominoutbot
 [RedisBook]: https://github.com/kondratovich/the-little-redis-book/blob/master/en/redis.md
 [FerretBook]: https://www.safaribooksonline.com/library/view/ferret/9780596519407/
-[RecordIt]: http://recordit.co/iR7FXIFzzK
 [GitHub]: https://github.com/dmlaziuk/bsuir-courses/tree/dm-homework-3/2017/DmLaziuk/3

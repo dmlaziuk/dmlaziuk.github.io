@@ -239,10 +239,11 @@ class Player
 end
 ```
 
-Sample video is available on [RecordIt][RecordIt].
+Sample video:
+
+{% include video id="249877580" provider="vimeo" %}
 
 Source files are available on [GitHub][GitHub].
 
 [Server]: {{ site.url }}/data/tetris-servers.zip
-[RecordIt]: http://recordit.co/e5P3wznF32
 [GitHub]: https://github.com/dmlaziuk/codenjoy_client/tree/master/ruby

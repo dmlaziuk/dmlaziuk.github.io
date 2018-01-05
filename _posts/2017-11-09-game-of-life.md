@@ -71,10 +71,11 @@ class GameOfLife
 end
 ```
 
-Sample video is available on [RecordIt][RecordIt].
+Sample video:
+
+{% include video id="249877584" provider="vimeo" %}
 
 Source files are available on [GitHub][GitHub].
 
 [Life]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-[RecordIt]: http://recordit.co/QWpMMrHHt9
 [GitHub]: https://github.com/dmlaziuk/bsuir-courses/tree/dm-life/2017/DmLaziuk/life
