@@ -3,12 +3,10 @@ title: Projects
 permalink: /projects/
 ---
 ## Coming out Telegram bot
-{: .align-center}
 
 [![CominoutBot]({{ "/images/lgbt.png" | absolute_url }}){: .align-center}][CominoutBot]
 
 ## Bonsticks to Bitcoins
-{: .align-center}
 
 [![B2B]({{ "/images/b2b.png" | absolute_url }}){: .align-center}][B2B]
 
