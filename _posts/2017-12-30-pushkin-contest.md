@@ -29,7 +29,7 @@ Level 4:
   **Answer**: Three replaced words separated by commas.
 
 Level 5:  
-**Question**: One line from any verse with one word replaced by any other word from pushkin vocabulary.  
+**Question**: One line from any verse with one word replaced by any other word from Pushkin vocabulary.  
   **Answer**: Right word and replaced one separated by comma.
 
 Level 6:  
@@ -37,11 +37,11 @@ Level 6:
   **Answer**: Original line.
 
 Level 7:  
-**Question**: One line from any verse with shuffled letterss order (punctuation removed).  
+**Question**: One line from any verse with shuffled letters order (punctuation removed).  
   **Answer**: Original line.
 
 Level 8:  
-**Question**: One line from any verse with shuffled letterss order (punctuation removed) and one letter changed.  
+**Question**: One line from any verse with shuffled letters order (punctuation removed) and one letter changed.  
   **Answer**: Original line.
 
 Source code of `config.ru`:
@@ -94,7 +94,7 @@ class PushkinContestBot
     id = request['id']
     level = request['level']
 
-    time = measure do 
+    time = measure do
       answer = case level
       when 1
         @pushkin.run_level1(question)

@@ -4,7 +4,7 @@ date:   2017-10-09
 ---
 The first homework was challenging. It was about traversing binary trees.
 
-The task was to parse data stored in binary tree and visualise the tree.
+The task was to parse data stored in binary tree and visualize the tree.
 
 For example given array:
 ```ruby
@@ -21,7 +21,7 @@ You have to output something like this:
 There were 3 levels:
 1. Read trees from zip-file, select tree with given name `$ NAME=mel ruby trees.rb` and print it out to console.
 2. If not given a NAME print out all trees in ascending order.
-3. Same as previous, but warn if depth of the tree greater then 5 or summ of all leaves is greater then 5000.
+3. Same as previous, but warn if depth of the tree greater then 5 or sum of all leaves is greater then 5000.
 
 The code for all 3 levels is here:
 ```ruby
@@ -171,7 +171,7 @@ else
       q = gets
       break if q[0, 1] == 'n'
     end
-    puts 'Proceded ' + trees.to_s + ' trees, which:'
+    puts 'Proceeded ' + trees.to_s + ' trees, which:'
     puts '-- leave ' + leave.to_s
     puts '-- trim ' + trim.to_s
     puts '-- cut ' + cut.to_s
@@ -196,7 +196,7 @@ trees/alica.tree
 Leave.
 Continue? [y/n]
 n
-Proceded 1 trees, which:
+Proceeded 1 trees, which:
 -- leave 1
 -- trim 0
 -- cut 0
