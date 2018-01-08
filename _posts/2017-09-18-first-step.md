@@ -52,4 +52,4 @@ I did it.
 
 [SAM]: https://sam-solutions.by
 [Rubyroid]: https://rubyroidlabs.com
-[Courses]: http://rubyroid.by/courses
+[Courses]: https://rubyroidlabs.com/ror_courses

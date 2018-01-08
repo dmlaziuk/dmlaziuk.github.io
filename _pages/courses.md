@@ -2,17 +2,21 @@
 title: Courses
 permalink: /courses/
 ---
-## [Color correction and digital color management][DCM]
+### [2017. Ruby on Rails][RoR]
 
-[![ColorManagement][ColorManagementImg]{: .align-center}][ColorManagementImg]
+[![Ruby on Rails][RoRImg]{: .align-center}][RoRImg]
 
-## [Photoshop Base][PSBase]
+### [2016. Photoshop Advanced][PSAdv]
 
-[![PhotoshopBase][PhotoshopBaseImg]{: .align-center}][PhotoshopBaseImg]
+[![Photoshop Advanced][PhotoshopAdvancedImg]{: .align-center}][PhotoshopAdvancedImg]
 
-## [Photoshop Advanced][PSAdv]
+### [2016. Photoshop Base][PSBase]
 
-[![PhotoshopAdvanced][PhotoshopAdvancedImg]{: .align-center}][PhotoshopAdvancedImg]
+[![Photoshop Base][PhotoshopBaseImg]{: .align-center}][PhotoshopBaseImg]
+
+### [2015. Color correction and digital color management][DCM]
+
+[![Digital Color Management][ColorManagementImg]{: .align-center}][ColorManagementImg]
 
 [ColorManagementImg]: /images/profileschool_color_management.jpg
 [PhotoshopBaseImg]: /images/profileschool_photoshop_base.jpg
@@ -20,3 +24,5 @@ permalink: /courses/
 [DCM]: https://www.profileschool.ru/certificate/DSQU6
 [PSBase]: https://www.profileschool.ru/certificate/778G3
 [PSAdv]: https://www.profileschool.ru/certificate/V46QQ
+[RoR]: https://rubyroidlabs.com/ror_courses
+[RoRImg]: /images/rubyroid_logo_autumn.svg
