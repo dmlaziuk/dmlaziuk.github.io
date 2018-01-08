@@ -9,3 +9,12 @@
 .highlight {
   font-size: 0.9em;
 }
+.archive__item-teaser {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 2em;
+
+}
+.feature__item--left {
+  border-bottom: 1px solid $border-color;
+}

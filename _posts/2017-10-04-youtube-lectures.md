@@ -1,6 +1,8 @@
 ---
 title:  "Youtube lectures"
 date:   2017-10-04
+header:
+  teaser: /images/YouTube_Logo.svg
 ---
 All lectures from the Ruby on Rails course are available on [Youtube](https://www.youtube.com/watch?v=x75YRjBV-w0&list=PL9LUlh0qu4656iJ4J8gMfOE6YiZ4QJ5bl).
 

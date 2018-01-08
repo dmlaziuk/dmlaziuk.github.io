@@ -28,6 +28,8 @@ author:
   linkedin : "dm-laziuk"
   github   : "dmlaziuk"
 
+teaser: /images/300x300.png
+
 include: ["_pages"]
 
 defaults:

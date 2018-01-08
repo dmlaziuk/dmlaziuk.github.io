@@ -6,7 +6,7 @@ header:
 ---
 The resulting project in Ruby courses was Pushkin contest.
 
-[![Pushkin]({{ "/images/pushkin2.gif" | absolute_url }}){: .align-center}][Pushkin]
+[![Pushkin]({{ "/images/pushkin.gif" | absolute_url }}){: .align-center}][Pushkin]
 
 Again dedicated server sends us questions and our clients have to respond answers.
 

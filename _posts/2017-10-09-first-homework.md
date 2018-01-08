@@ -1,6 +1,8 @@
 ---
 title:  "First homework"
 date:   2017-10-09
+header:
+  teaser: /images/Binary_tree.svg
 ---
 The first homework was challenging. It was about traversing binary trees.
 

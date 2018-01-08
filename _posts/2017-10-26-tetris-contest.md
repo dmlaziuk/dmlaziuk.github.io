@@ -2,7 +2,7 @@
 title:  "Tetris contest"
 date:   2017-10-26
 header:
-  teaser: /images/codenjoy.jpg
+  teaser: /images/tetris.svg
 ---
 On the second workshop we were struggling on tetris contest.
 
