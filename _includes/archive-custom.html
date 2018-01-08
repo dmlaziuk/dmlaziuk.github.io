@@ -22,19 +22,25 @@
 {% assign teaser_url = teaser | absolute_url %}
 {% endif %}
 
-<div class="feature__item--left">
+<div class="feature__item--left" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="archive__item">
         <div class="archive__item-teaser">
             <img src="{{ teaser_url }}" alt="">
         </div>
         <div class="archive__item-body">
-            <h3 class="archive__item-title">
+            <h3 class="archive__item-title" itemprop="name headline">
                 {% if post.link %}
                 <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
                 {% else %}
                 <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
                 {% endif %}
             </h3>
+            <p class="archive__item-date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong>
+                <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {% assign date_format = site.date_format | default: "%Y-%m-%d" %}
+                    {{ post.date | date: date_format }}
+                </time>
+            </p>
             {% if post.excerpt %}
             <div class="archive__item-excerpt">
                 {{ post.excerpt | markdownify }}

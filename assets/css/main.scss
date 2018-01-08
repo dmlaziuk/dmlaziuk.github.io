@@ -18,3 +18,13 @@
 .feature__item--left {
   border-bottom: 1px solid $border-color;
 }
+.archive__item-date {
+  font-size: $type-size-8;
+  margin: 0;
+}
+.archive__item-excerpt {
+  margin: 0;
+  a {
+    text-decoration: underline;
+  }
+}

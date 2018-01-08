@@ -4,7 +4,7 @@ date:   2017-12-30
 header:
   teaser: /images/pushkin.gif
 ---
-The resulting project in Ruby courses was Pushkin contest.
+The resulting project of Ruby courses.
 
 [![Pushkin]({{ "/images/pushkin.gif" | absolute_url }}){: .align-center}][Pushkin]
 
@@ -12,35 +12,35 @@ Again dedicated server sends us questions and our clients have to respond answer
 
 There are 8 levels. You have to answer 100 questions to jump to another level.
 
-Level 1:  
+**Level 1:**  
 **Question**: One line from any verse.  
   **Answer**: The title of the verse.
 
-Level 2:  
+**Level 2:**  
 **Question**: One line from any verse with one word replaced by **%WORD%**.  
   **Answer**: Replaced word.
 
-Level 3:  
+**Level 3:**  
 **Question**: Two lines in succession from any verse with one word replaced by **%WORD%** on each line.  
   **Answer**: Two replaced words separated by comma.
 
-Level 4:  
+**Level 4:**  
 **Question**: Three lines in succession from any verse with one word replaced by **%WORD%** on each line.  
   **Answer**: Three replaced words separated by commas.
 
-Level 5:  
+**Level 5:**  
 **Question**: One line from any verse with one word replaced by any other word from Pushkin vocabulary.  
   **Answer**: Right word and replaced one separated by comma.
 
-Level 6:  
+**Level 6:**  
 **Question**: One line from any verse with shuffled words order (punctuation removed).  
   **Answer**: Original line.
 
-Level 7:  
+**Level 7:**  
 **Question**: One line from any verse with shuffled letters order (punctuation removed).  
   **Answer**: Original line.
 
-Level 8:  
+**Level 8:**  
 **Question**: One line from any verse with shuffled letters order (punctuation removed) and one letter changed.  
   **Answer**: Original line.
 
