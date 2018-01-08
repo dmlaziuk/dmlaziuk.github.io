@@ -415,7 +415,7 @@ Here is the results table:
 
 ![Pushkin]({{ "/images/pushkin.png" | absolute_url }}){: .align-center}
 
-In the contest I took **second** place (my name is dmlaziuk).
+I took **second** place (my name is dmlaziuk).
 I'm very proud of it.
 
 Here is the statistics for single run:

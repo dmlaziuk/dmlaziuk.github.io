@@ -6,5 +6,5 @@ permalink: /achievements/
 
 [![WTH][WTHimg]{: .align-center}][WTHimg]
 
-[WTHimg]: /images/wth.jpg
+[WTHimg]: /images/wth3.jpg
 [WTH]: /2017/11/26/wth.html
