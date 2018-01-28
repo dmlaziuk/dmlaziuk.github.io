@@ -3,6 +3,7 @@ title: Timeline
 permalink: /timeline/
 ---
 ### 2017
+
 * 2017-09-18-first-step.md
 * 2017-10-03-TOEFL.md
 * 2017-10-04-youtube-lectures.md
@@ -28,6 +29,7 @@ permalink: /timeline/
 * 2017-12-30 linux meetup
 
 ### 2018
+
 * 2018-01-08 finished personal blog and send placement letter to Rubyroid labs
 * 2018-01-12 added RSpec tests to `pushkin-contest-bot`
 * 2018-01-16 interview at Rubyroid labs
