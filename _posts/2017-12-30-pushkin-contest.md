@@ -29,7 +29,7 @@ There are 8 levels. You have to answer 100 questions to jump to another level.
   **Answer**: Three replaced words separated by commas.
 
 **Level 5:**  
-**Question**: One line from any verse with one word replaced by any other word from Pushkin vocabulary.  
+**Question**: One line from any verse with one word replaced by any other word from Pushkin's vocabulary.  
   **Answer**: Right word and replaced one separated by comma.
 
 **Level 6:**  
