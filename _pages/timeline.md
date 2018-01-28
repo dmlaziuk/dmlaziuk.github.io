@@ -18,11 +18,11 @@ permalink: /timeline/
 * 2017-11-26-wth.md
 * 2017-11-28-fourth-homework.md
 * 2017-11-29-minsk.rb-meetup-NN.md
-* 2017-12-01 IoT meetup
+* 2017-12-01-iot-meetup.md
 * 2017-12-12 created `nodejsbot` repository
-* 2017-12-13 GoWay Meetup 1.1
+* 2017-12-13-goway-meetup.md
 * 2017-12-15 created `pushkin-contest-bot` repository
-* 2017-12-20 Rubizza Hangout
+* 2017-12-20-rubizza-hangout.md
 * 2017-12-27 Found Craft Academy on GitBook.com
 * 2017-12-27 created `dmlaziuk.github.com` repository using Minimal Mistakes theme
 * 2017-12-30-pushkin-contest.md
