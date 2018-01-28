@@ -4,7 +4,7 @@ date:   2017-12-13
 header:
   teaser: /images/gowayminsk.jpg
 ---
-[GoWay Meetup 1.1][Meetup]
+Go meetup.
 
 [![GoWay Meetup]({{ "/images/goway_meetup1_1.png" | absolute_url }}){: .align-center}][Meetup]
 
@@ -26,5 +26,8 @@ header:
 
 [GitHub page of the meetup][GitHub].
 
-[Meetup]: https://events.dev.by/goway-meetup-1-1
+[Community][Community]
+
+[Meetup]: https://www.facebook.com/events/369220373548395/
 [GitHub]: https://github.com/gowaymeetup/talks/tree/master/gowaymeetup_1.1
+[Community]: https://www.facebook.com/gowaymeetup/
