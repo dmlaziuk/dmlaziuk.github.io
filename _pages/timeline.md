@@ -30,7 +30,8 @@ permalink: /timeline/
 
 ### 2018
 
-* 2018-01-08 finished personal blog and send placement letter to Rubyroid labs
+* 2018-01-08-personal-blog.md
+* 2018-01-08-placement-letter-rubyroidlabs.md
 * 2018-01-12 added RSpec tests to `pushkin-contest-bot`
 * 2018-01-16 interview at Rubyroid labs
 * 2018-01-17 WebDevDay meetup
