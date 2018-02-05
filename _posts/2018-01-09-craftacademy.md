@@ -101,7 +101,6 @@ Tab        |Auto-complete files and folder names
 - motivated me to use RSpec for a primary development process (TDD)
 - use [Jasmine][Jasmine] as a Behaviour Driven Development framework for testing JavaScript code.
 
-
 [CA]: http://craftacademy.se/
 [CALogo]: {{ "/images/craftacademy_logo.png" | absolute_url }}
 [CAGitHub]: https://github.com/CraftAcademy

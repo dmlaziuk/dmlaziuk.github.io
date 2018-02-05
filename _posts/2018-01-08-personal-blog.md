@@ -181,9 +181,12 @@ $ git commit -m 'initial commit'
 $ git push origin master
 ```
 
-Now your site is available at `https://yourname.github.io`
+Now your site is available at `https://yourname.github.io`.
+
+How I’m Using Jekyll in 2016 ([link][Jekyll2016]).
 
 [GitPages]: https://pages.github.com
 [Jekyll]: https://jekyllrb.com
 [MM]: https://mmistakes.github.io/minimal-mistakes
 [BlogImg]: {{ "/images/blog-2018-01.png" | absolute_url }}
+[Jekyll2016]: https://mademistakes.com/articles/using-jekyll-2016/
