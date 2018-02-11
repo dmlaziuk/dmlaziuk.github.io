@@ -25,7 +25,7 @@ It took me almost 5 minutes to describe all the hidden classes, Array initializa
 
 The other one was from CEO:
 
-_Describe full path of user request from the browser throug all protocols to server request and then back to browser and DOM rendering._
+_Describe full path of user request from the browser throug all protocols to server response and then back to browser and DOM rendering._
 
 It was a long story of packets journey that took me almost 20 to 30 minutes.
 
