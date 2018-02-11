@@ -8,9 +8,9 @@ My preparation for Ruby on Rails interview.
 
 ![Mindmap][Mindmap]{: .align-center}
 
-Summary of YouTube [lectures][Lectures] of Ruby on Rails Courses.
+## Summary of YouTube [lectures][Lectures] of Ruby on Rails Courses
 
-### 1. [Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons][Lecture1]
+### Lecture 1. [Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons][Lecture1]
 
 Ruby is interpreted, dymamic, object-oriented programming language.
 
@@ -44,7 +44,7 @@ Pipeline pattern
 
 `gem 'interactor'`
 
-### 2. [Ruby basics. Classes and modules][Lecture2]
+### Lecture 2. [Ruby basics. Classes and modules][Lecture2]
 
 #### Variables
 
@@ -79,7 +79,7 @@ Module Test
 end
 ```
 
-### 3. [Classes and Modules. Ruby Object Model. Lambdas vs Procs vs Blocks][Lecture3]
+### Lecture 3. [Classes and Modules. Ruby Object Model. Lambdas vs Procs vs Blocks][Lecture3]
 
 `self` — current recipient of the message
 
@@ -95,7 +95,7 @@ Proc and Lambda got into some sort of fight in a pub, and then
 Proc — flies off the pub  
 Lambda — flies off the handle
 
-to call `lambda` use `.call`, `[]`, `===`
+To call `lambda` use `.call`, `[]`, `===`
 
 ```ruby
 case
@@ -107,7 +107,7 @@ end
 a = Array.new(5) { |index| index }
 ```
 
-### 4. [Metaprogramming][Lecture4]
+### Lecture 4. [Metaprogramming][Lecture4]
 
 ```ruby
 alias_method :old_plus, :+
@@ -124,7 +124,7 @@ eval ‘’
 .class_eval ‘’
 ```
 
-### 5. [Ruby Tips and Tricks. Array, Hash methods][Lecture5]
+### Lecture 5. [Ruby Tips and Tricks. Array, Hash methods][Lecture5]
 
 ```ruby
 arr.first(3) = arr.take(3)
@@ -136,12 +136,12 @@ arr.last() = arr.drop()
 .to_s(2)
 ```
 
-### 6. [Gems. Ruby testing][Lecture6]
+### Lecture 6. [Gems. Ruby testing][Lecture6]
 
 Semantic versioning:  
 major.minor.patch
 
-For example: ruby 2.4.1
+For example: `ruby 2.4.1`
 
 Bundler
 
@@ -154,7 +154,7 @@ Timecop
 stab — to substitute state,  
 mock — to substitute behaviour
 
-### 7. [Web basics. Rack][Lecture7]
+### Lecture 7. [Web basics. Rack][Lecture7]
 
 TCP/IP стек:
 
@@ -181,19 +181,24 @@ OSI стек:
 
 ![TCPheader][TCPheader]{: .align-center}
 ￼
-CCNA Cisco
+[CCNA Cisco][CCNA]
 
 #### Rack
 
 ```ruby
+# config.ru
 run ->(env) { [200, {}, ['Hello world']] }
+```
+
+```
+$ rackup
 ```
 
 #### Node.js Event loop
 
 ![Node][Node]{: .align-center}
 
-### 8. [HTML, CSS, JS basics. Sinatra introduction][Lecture8]
+### Lecture 8. [HTML, CSS, JS basics. Sinatra introduction][Lecture8]
 
 ERB
 
@@ -215,15 +220,18 @@ CoffeScript
 
 Sinatra
 
-### 9. ActiveRecord [Part 1][Lecture91], [Part 2][Lecture92]
+### Lecture 9. ActiveRecord [Part 1][Lecture91], [Part 2][Lecture92]
 
 ORM — Object-Relational Mapping
 
-Pattern — Data mapper, Active record
+#### Patterns
+
+* Data mapper
+* Active record
 
 `gem ‘activerecord’`
 
-Migrations
+#### Migrations
 
 ```ruby
 create table :cars do |t|
@@ -242,6 +250,8 @@ class Car < ActiveRecord::Base
 end
 ```
 
+#### Query
+
 ```ruby
 .find()
 .find_by()
@@ -259,9 +269,40 @@ Callbacks
 
 STI — Single Table Inheritance
 
-### 10. [Padrino][Lecture10]
+#### Data Types
 
-### 11. [Rails basics][Lecture11]
+```ruby
+:primary_key
+:string
+:text
+:integer
+:bigint
+:float
+:decimal
+:numeric
+:datetime
+:time
+:date
+:binary
+:boolean
+
+t.string 'tags', array: true
+t.hstore 'settings'
+t.json 'payload'
+t.jsonb 'payload'
+t.daterange 'duration'
+t.column :status, :article_status
+t.uuid :identifier
+t.column :settings, "bit(8)"
+t.inet 'ip'
+t.cidr 'network'
+t.macaddr 'address'
+t.references
+```
+
+### Lecture 10. [Padrino][Lecture10]
+
+### Lecture 11. [Rails basics][Lecture11]
 
 Rails:
 
@@ -278,7 +319,7 @@ Rails:
 
 Rails composer
 
-### 12. [Rails routing and controllers][Lecture12]
+### Lecture 12. [Rails routing and controllers][Lecture12]
 
 CRUD — create, read, update, delete
 
@@ -296,7 +337,7 @@ URI: `schema://user:password@host:port/path?query#fragment`
 
 send_file
 
-### 13. [Rails template engines. Assets pipeline. Rails form builders][Lecture13]
+### Lecture 13. [Rails template engines. Assets pipeline. Rails form builders][Lecture13]
 
 `erb` — embedded ruby
 
@@ -308,27 +349,41 @@ respond_to do |format|
   end
 ```
 
-`gem oj` — optimized JSON (with native extensions)
+`gem 'oj'` — optimized JSON (with native extensions)
 
 [wkhtmltopdf][wkhtmltopdf]
 
-`gem faker`
+`gem 'faker'`
 
-`gem ryba`
+`gem 'ryba'`
 
-### 14. [Rails background jobs. Rails action cable][Lecture14]
+### Lecture 14. [Rails background jobs. Rails action cable][Lecture14]
 
 ```ruby
-gem sidekiq
-gem whenever
+gem 'sidekiq'
+gem 'whenever'
 
 # Action Cable
-gem anycable
+gem 'anycable'
 ```
 
-### 15. [Deploying Rails Application][Lecture15]
+### Lecture 15. [Deploying Rails Application][Lecture15]
 
-`gem capistrano`
+`gem 'capistrano'`
+
+[Setup Ruby On Rails on Ubuntu 16.04][Ubuntu]
+
+## Usefull resources to prepare for interview
+
+* [Rubyroid Labs Hacks: How We Interview Ruby on Rails Developers][RubyroidlabsInterview]
+* [Programmer's interview quizes][Tproger]
+* [How to become a good programmer: Google way][GoogleInterview]
+* [How to pass interview in Silicon Valley][SiliconInterview]
+* [Spice IT Recruitment articles][SpiceInterview]
+* [Preparing to technical interview][TechInterview]
+* [CCNA self-preparation][CCNA]
+* [Ruby on Rails Guides][RubyonrailsGuides]
+* [Ruby on Rails Guides (RU)][RubyonrailsGuidesRU]
 
 [Mindmap]: {{ "/images/mindmap.png" | absolute_url }}
 [Lectures]: https://dmlaziuk.github.io/2017/10/04/youtube-lectures.html
@@ -354,3 +409,14 @@ gem anycable
 [Lecture13]: https://youtu.be/N4L1XPPrSMg
 [Lecture14]: https://youtu.be/J3ibzAU4Dro
 [Lecture15]: https://youtu.be/_xLn0juHZAU
+[Ubuntu]:https://gorails.com/setup/ubuntu/16.04
+
+[RubyroidlabsInterview]: https://rubyroidlabs.com/blog/2016/12/how-we-interview-ruby/
+[Tproger]: https://tproger.ru/experts/31/
+[GoogleInterview]: https://tproger.ru/articles/google-guide-to-programming/
+[SiliconInterview]: https://habrahabr.ru/company/everydaytools/blog/342104/
+[SpiceInterview]: https://habrahabr.ru/company/spice/
+[TechInterview]:http://telegra.ph/Gotovimsya-k-tehnicheskomu-sobesedovaniyu-02-04
+[CCNA]: https://habrahabr.ru/post/158315/
+[RubyonrailsGuides]: http://guides.rubyonrails.org/
+[RubyonrailsGuidesRU]: http://rusrails.ru

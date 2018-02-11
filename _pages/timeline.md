@@ -35,7 +35,7 @@ permalink: /timeline/
 * 2018-01-09-craftacademy.md
 * 2018-01-12-rspec-pushkin.md
 * 2018-01-15-preparation-for-interview.md
-* 2018-01-16 interview at Rubyroid labs
+* 2018-01-16-interview-rubyroidlabs.md
 * 2018-01-17 WebDevDay meetup
 * 2018-01-18 job offer from Rubyroid labs
 * 2018-01-21 Yandex Interface Development School
