@@ -13,9 +13,9 @@ I have a lot of questions to ask about new job, my responsibilities and what wil
 
 At Rubyroid Labs site there were a [blog post][RubyroidlabsInterview] on how to interview Ruby on Rails developers.
 I used this article as a survey for preparation.
-But real interview questions differes from that.
+But real interview questions differs from that.
 
-The first quiz was from CTO:
+The first quiz on Ruby:
 
 ```ruby
 {}.class[[].class.new(2) {|_| [[_],[_]]}]
@@ -23,9 +23,9 @@ The first quiz was from CTO:
 
 It took me almost 5 minutes to describe all the hidden classes, Array initialization and Array to Hash mapping.
 
-The other one was from CEO:
+The other one was all about internet infrastructure:
 
-_Describe full path of user request from the browser throug all protocols to server response and then back to browser and DOM rendering._
+_Describe full path of user request from the browser through all protocols to server response and then back to browser and DOM rendering._
 
 It was a long story of packets journey that took me almost 20 to 30 minutes.
 
@@ -43,12 +43,12 @@ I didn't use javascript much, but the answer was obvious.
 
 We also had a long conversation on future Ruby 3 features, attitude to Node.js and other urgent technologies.
 
-Finaly we talked on my wage.
+Finally we talked on my wage.
 I had no wage expectations just because I was jumping from Building to IT industry.
 So I agreed with the offer.
 
 Hurrah!!!  
-Now I'm a Sowtware Developer!
+Now I'm a Software Developer!
 
 ![Cowsay][Cowsay]{: .align-center}
 
