@@ -8,7 +8,7 @@ Youtube videos of Yandex Interface Development School in 2013 (Moscow).
 
 ![IDS][IDS]{: .align-center}
 
-## 1. Introduction to Interface Development School
+## 1. Introduction to  Yandex Interface Development School
 
 {% include video id="6-vN9u0cT8g" provider="youtube" %}
 
@@ -50,7 +50,7 @@ Youtube videos of Yandex Interface Development School in 2013 (Moscow).
 
 {% include video id="woiTJWE3YZ4" provider="youtube" %}
 
-## 7. Editing code
+## 7. Editing code. Vim
 
 {% include video id="CtPRH9oBOPo" provider="youtube" %}
 
@@ -67,7 +67,7 @@ Git gc
 
 {% include video id="ncn_8BBU2PA" provider="youtube" %}
 
-## 10. Deployment
+## 10. Web application deployment
 
 {% include video id="vxhTcC8G8E8" provider="youtube" %}
 
@@ -83,7 +83,7 @@ Git gc
 
 {% include video id="u2vHrwthpV4" provider="youtube" %}
 
-## 14. Caching
+## 14. Caching. Client- and server-side
 
 {% include video id="rOByM_NpaxI" provider="youtube" %}
 
@@ -98,6 +98,129 @@ Git gc
 ## 17. Regular expressions
 
 {% include video id="OKXyC2h8y8c" provider="youtube" %}
+
+## 18. CSS
+
+{% include video id="iaJjY9-Rwr0" provider="youtube" %}
+
+web standards days
+
+## 19. Web graphics
+
+{% include video id="pBtZfnsYfBM" provider="youtube" %}
+
+
+## 20. Debugger
+
+{% include video id="ddlpMHw5qeM" provider="youtube" %}
+
+## 21. JavaScript async
+
+{% include video id="Apz4dFRY4fs" provider="youtube" %}
+
+## 22. JavaScript basics
+
+{% include video id="vbdsTTDInTY" provider="youtube" %}
+
+## 23. Transportation. JavaScript ajax
+
+{% include video id="wBbvEzxWNdc" provider="youtube" %}
+
+## 24. MVC
+
+{% include video id="0atzyTy64g4" provider="youtube" %}
+
+## 25. Client-side performance
+
+{% include video id="OPfXExDmLWk" provider="youtube" %}
+
+## 26. Profiler
+
+{% include video id="ttoeRk3VS_U" provider="youtube" %}
+
+## 27. Templates
+
+{% include video id="VwzcEEAfNCs" provider="youtube" %}
+
+## 28. JavaScript frameworks
+
+{% include video id="udvvrZuP7EM" provider="youtube" %}
+
+## 29. jQuery
+
+{% include video id="TOkt962icJI" provider="youtube" %}
+
+## 30. Tasks acceptance. Design
+
+{% include video id="8xW5DQpT38M" provider="youtube" %}
+
+## 31. BEM master class
+
+{% include video id="ftJjkHGcpgo" provider="youtube" %}
+
+## 31. BEM methodology. BEM platform overview
+
+{% include video id="NoZu4hVxTCQ" provider="youtube" %}
+
+## 33. Tasks acceptance. General and backend development
+
+{% include video id="Z-1qyJ5oNf0" provider="youtube" %}
+
+## 34. Design
+
+{% include video id="Oo7gO3lDleA" provider="youtube" %}
+
+## 35. Pair programing
+
+{% include video id="a8aI04FZHDY" provider="youtube" %}
+
+## 36. Code review
+
+{% include video id="f3DPnq-9TK8" provider="youtube" %}
+
+## 37. CSS
+
+{% include video id="sJXZT6e1O6Q" provider="youtube" %}
+
+## 38. Values and units. Fonts. Text properties
+
+{% include video id="S2tMGZLakQs" provider="youtube" %}
+
+## 39. Visual formating model. Basics
+
+{% include video id="_NGLp9gpZJM" provider="youtube" %}
+
+## 40. Free move and positioning
+
+{% include video id="Emps2XsR1cU" provider="youtube" %}
+
+## 41. Layouts. At rules
+
+{% include video id="Vw4TwNgE0Mw" provider="youtube" %}
+
+## 42. Colors and background. Transitions. Animation
+
+{% include video id="GFpUVIOgc3M" provider="youtube" %}
+
+## 43. Layout experiment
+
+{% include video id="XLP2FU0ToW8" provider="youtube" %}
+
+## 44. JavaScript events
+
+{% include video id="8hQt3Ufdk_Y" provider="youtube" %}
+
+## 45. Code style
+
+{% include video id="xjJHrKHGyNc" provider="youtube" %}
+
+## 46. I-BEM
+
+{% include video id="kxQsPGmYNzw" provider="youtube" %}
+
+## 47. Unit testing
+
+{% include video id="XK-WcwFiOmM" provider="youtube" %}
 
 [IDS]: {{ "/images/yandex_ids.png" | absolute_url }}
 [BrandsTree]: http://vrudenko.org.ua/wp-content/uploads/derevo-brendov-1920.jpg

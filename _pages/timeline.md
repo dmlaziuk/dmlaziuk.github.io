@@ -38,7 +38,7 @@ permalink: /timeline/
 * 2018-01-16-interview-rubyroidlabs.md
 * 2018-01-17 WebDevDay meetup
 * 2018-01-18 job offer from Rubyroid labs
-* 2018-01-21 Yandex Interface Development School
+* 2018-01-21-yandex-interface-school.md
 * 2018-01-22 start working at Rubyroid labs
 * 2018-01-23 Ryby etimology
 * 2018-01-24 ruby meetup Minsk.rb
