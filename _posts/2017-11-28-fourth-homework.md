@@ -3,10 +3,17 @@ title:  "Fourth homework"
 date:   2017-11-28
 header:
   teaser: /images/b2b.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
 ---
 The main theme of this homework is to connect people affected by hype in both bitcoins and bonsticks.
 
 [![B2B]({{ "/images/b2b.png" | absolute_url }}){: .align-center}][AWS]
+
+## Objective
 
 This is simple Rails B2B application. In our context it transcribes as Bonstick2Bitcoin.
 
@@ -17,8 +24,9 @@ Comments to notices are allowed. In comments you can add contact information or 
 Pagination is implemented by `gem kaminari`.
 
 Real exchange rate between bitcoin and BYR taken from web-API and stored in yaml format.
-Source code of `btc.rb`:
+
 ```ruby
+# btc.rb
 require 'yaml'
 require 'rest-client'
 require 'json'
@@ -30,9 +38,11 @@ puts btc_byr
 File.open("btc_byr.yml", "w") {|f| f.write(btc_byr.to_yaml) }
 ```
 
+## Result
+
 The site is up and runing on [AWS][AWS].
 
-Sample video:
+## Video
 
 {% include video id="249877559" provider="vimeo" %}
 

@@ -3,14 +3,20 @@ title:  "Preparation for interview"
 date:   2018-01-15
 header:
   teaser: /images/mindmap.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - interview
+  - ruby
 ---
 My preparation for Ruby on Rails interview.
 
 ![Mindmap][Mindmap]{: .align-center}
 
-## Summary of YouTube [lectures][Lectures] of Ruby on Rails Courses
+Summary of YouTube [lectures][Lectures] of Ruby on Rails Courses
 
-### Lecture 1. [Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons][Lecture1]
+## Lecture 1. [Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons][Lecture1]
 
 Ruby is interpreted, dymamic, object-oriented programming language.
 
@@ -44,9 +50,9 @@ Pipeline pattern
 
 `gem 'interactor'`
 
-### Lecture 2. [Ruby basics. Classes and modules][Lecture2]
+## Lecture 2. [Ruby basics. Classes and modules][Lecture2]
 
-#### Variables
+### Variables
 
 * $global_variable
 * local_variable
@@ -56,7 +62,7 @@ Pipeline pattern
 
 .freeze
 
-#### Functions
+### Functions
 
 ```ruby
 arr.reduce(&:*) # multiply all elements of array
@@ -64,11 +70,11 @@ def func(first:, last:, a: nil, b:, c: true)
 end
 ```
 
-#### Classes
+### Classes
 
 Book: "Ruby under microscope"
 
-#### Modules
+### Modules
 
 ```ruby
 Module Test
@@ -79,7 +85,7 @@ Module Test
 end
 ```
 
-### Lecture 3. [Classes and Modules. Ruby Object Model. Lambdas vs Procs vs Blocks][Lecture3]
+## Lecture 3. [Classes and Modules. Ruby Object Model. Lambdas vs Procs vs Blocks][Lecture3]
 
 `self` — current recipient of the message
 
@@ -107,7 +113,7 @@ end
 a = Array.new(5) { |index| index }
 ```
 
-### Lecture 4. [Metaprogramming][Lecture4]
+## Lecture 4. [Metaprogramming][Lecture4]
 
 ```ruby
 alias_method :old_plus, :+
@@ -124,7 +130,7 @@ eval ‘’
 .class_eval ‘’
 ```
 
-### Lecture 5. [Ruby Tips and Tricks. Array, Hash methods][Lecture5]
+## Lecture 5. [Ruby Tips and Tricks. Array, Hash methods][Lecture5]
 
 ```ruby
 arr.first(3) = arr.take(3)
@@ -136,7 +142,7 @@ arr.last() = arr.drop()
 .to_s(2)
 ```
 
-### Lecture 6. [Gems. Ruby testing][Lecture6]
+## Lecture 6. [Gems. Ruby testing][Lecture6]
 
 Semantic versioning:  
 major.minor.patch
@@ -154,16 +160,16 @@ Timecop
 stab — to substitute state,  
 mock — to substitute behaviour
 
-### Lecture 7. [Web basics. Rack][Lecture7]
+## Lecture 7. [Web basics. Rack][Lecture7]
 
-TCP/IP стек:
+### TCP/IP stack
 
 * Application layer — HTTP, RTSP, FTP, DNS
 * Transport layer — TCP, UDP, SCTP, DCCP
 * Internet layer — Для TCP/IP это IP
 * Link layer — Ethernet, IEEE 802.11 WLAN, SLIP, Token Ring, ATM и MPLS
 
-OSI стек:
+### OSI stack
 
 * 7: application — HTTP, FTP, SMTP, RDP, SNMP, DHCP
 * 6: presentation — ASCII, EBCDIC, JPEG
@@ -173,17 +179,17 @@ OSI стек:
 * 2: data link — PPP, IEEE 802.22, Ethernet, DSL, ARP, L2TP
 * 1: physical — USB, twisted pair, coaxial cable, fibre cable
 
-#### IP header
+### IP header
 
 ![IPheader][IPheader]{: .align-center}
 ￼
-#### TCP header
+### TCP header
 
 ![TCPheader][TCPheader]{: .align-center}
 ￼
 [CCNA Cisco][CCNA]
 
-#### Rack
+### Rack
 
 ```ruby
 # config.ru
@@ -194,11 +200,11 @@ run ->(env) { [200, {}, ['Hello world']] }
 $ rackup
 ```
 
-#### Node.js Event loop
+### Node.js Event loop
 
 ![Node][Node]{: .align-center}
 
-### Lecture 8. [HTML, CSS, JS basics. Sinatra introduction][Lecture8]
+## Lecture 8. [HTML, CSS, JS basics. Sinatra introduction][Lecture8]
 
 ERB
 
@@ -220,18 +226,18 @@ CoffeScript
 
 Sinatra
 
-### Lecture 9. ActiveRecord [Part 1][Lecture91], [Part 2][Lecture92]
+## Lecture 9. ActiveRecord [Part 1][Lecture91], [Part 2][Lecture92]
 
 ORM — Object-Relational Mapping
 
-#### Patterns
+### Patterns
 
 * Data mapper
 * Active record
 
 `gem ‘activerecord’`
 
-#### Migrations
+### Migrations
 
 ```ruby
 create table :cars do |t|
@@ -250,7 +256,7 @@ class Car < ActiveRecord::Base
 end
 ```
 
-#### Query
+### Query
 
 ```ruby
 .find()
@@ -269,7 +275,7 @@ Callbacks
 
 STI — Single Table Inheritance
 
-#### Data Types
+### Data Types
 
 ```ruby
 :primary_key
@@ -300,9 +306,9 @@ t.macaddr 'address'
 t.references
 ```
 
-### Lecture 10. [Padrino][Lecture10]
+## Lecture 10. [Padrino][Lecture10]
 
-### Lecture 11. [Rails basics][Lecture11]
+## Lecture 11. [Rails basics][Lecture11]
 
 Rails:
 
@@ -319,7 +325,7 @@ Rails:
 
 Rails composer
 
-### Lecture 12. [Rails routing and controllers][Lecture12]
+## Lecture 12. [Rails routing and controllers][Lecture12]
 
 CRUD — create, read, update, delete
 
@@ -337,7 +343,7 @@ URI: `schema://user:password@host:port/path?query#fragment`
 
 send_file
 
-### Lecture 13. [Rails template engines. Assets pipeline. Rails form builders][Lecture13]
+## Lecture 13. [Rails template engines. Assets pipeline. Rails form builders][Lecture13]
 
 `erb` — embedded ruby
 
@@ -357,7 +363,7 @@ respond_to do |format|
 
 `gem 'ryba'`
 
-### Lecture 14. [Rails background jobs. Rails action cable][Lecture14]
+## Lecture 14. [Rails background jobs. Rails action cable][Lecture14]
 
 ```ruby
 gem 'sidekiq'
@@ -367,7 +373,7 @@ gem 'whenever'
 gem 'anycable'
 ```
 
-### Lecture 15. [Deploying Rails Application][Lecture15]
+## Lecture 15. [Deploying Rails Application][Lecture15]
 
 `gem 'capistrano'`
 

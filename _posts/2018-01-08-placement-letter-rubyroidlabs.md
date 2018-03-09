@@ -3,6 +3,8 @@ title:  "Placement letter"
 date:   2018-01-08
 header:
   teaser: /images/rubyroid_logo_autumn.svg
+tags:
+  - interview
 ---
 I send my first placement letter.
 

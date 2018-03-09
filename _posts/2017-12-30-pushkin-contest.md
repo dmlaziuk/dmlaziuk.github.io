@@ -3,10 +3,18 @@ title:  "Pushkin contest"
 date:   2017-12-30
 header:
   teaser: /images/pushkin.gif
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
+  - contest
 ---
 The resulting project of Ruby courses.
 
 [![Pushkin]({{ "/images/pushkin.gif" | absolute_url }}){: .align-center}][Pushkin]
+
+## Objective
 
 Again dedicated server sends us questions and our clients have to respond answers.
 
@@ -44,16 +52,18 @@ There are 8 levels. You have to answer 100 questions to jump to another level.
 **Question**: One line from any verse with shuffled letters order (punctuation removed) and one letter changed.  
   **Answer**: Original line.
 
-Source code of `config.ru`:
+## Source code
+
 ```ruby
+# config.ru
 require 'rack'
 require_relative 'pushkin-contest-bot'
 
 run PushkinContestBot.new
 ```
 
-Source code of `pushkin-contest-bot.rb`:
 ```ruby
+# pushkin-contest-bot.rb
 require 'benchmark'
 require 'json'
 require 'yaml'
@@ -135,8 +145,8 @@ class PushkinContestBot
 end
 ```
 
-Source code of `lib/pushkin.rb`:
 ```ruby
+# lib/pushkin.rb
 require_relative 'verse'
 
 class Pushkin
@@ -301,8 +311,8 @@ class Pushkin
 end
 ```
 
-Source code of `lib/verse.rb`:
 ```ruby
+# lib/verse.rb
 require_relative 'line'
 
 class Verse
@@ -316,8 +326,8 @@ class Verse
 end
 ```
 
-Source code of `lib/line.rb`:
 ```ruby
+# lib/line.rb
 require_relative 'word'
 
 class Line
@@ -338,8 +348,8 @@ class Line
 end
 ```
 
-Source code of `lib/word.rb`:
 ```ruby
+# lib/word.rb
 class Word
   attr_reader :word
   attr_reader :word_hash
@@ -355,8 +365,8 @@ class Word
 end
 ```
 
-Source code of `parse.rb`:
 ```ruby
+# parse.rb
 require 'benchmark'
 require 'mechanize'
 
@@ -411,7 +421,7 @@ end
 File.open('lyrics.yml', 'w') { |f| f.write(YAML.dump(verses)) }
 ```
 
-Here is the results table:
+## Results
 
 ![Pushkin]({{ "/images/pushkin.png" | absolute_url }}){: .align-center}
 
@@ -419,6 +429,7 @@ I took **second** place (my name is dmlaziuk).
 I'm very proud of it.
 
 Here is the statistics for single run:
+
 ```
 Level 1:100 =>   0.000000   0.000000   0.000000 (  0.004113)
 Level 2:108 =>   0.380000   0.004000   0.384000 (  0.411866)
@@ -432,6 +443,7 @@ Level 8:124 =>   4.572000   0.024000   4.596000 (  4.864457)
 ```
 
 And the statistics for real contest:
+
 ```
 Level 1:715 =>   0.028000   0.004000   0.032000 (  0.030619)
 Level 2:407 =>   1.760000   0.088000   1.848000 (  1.859254)

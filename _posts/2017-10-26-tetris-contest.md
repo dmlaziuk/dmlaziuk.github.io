@@ -3,10 +3,18 @@ title:  "Tetris contest"
 date:   2017-10-26
 header:
   teaser: /images/tetris.svg
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
+  - contest
 ---
 On the second workshop we were struggling on tetris contest.
 
 [![codenjoy.com]({{ "/images/codenjoy.jpg" | absolute_url }}){: .align-center}][Server]
+
+## Objective
 
 We had one dedicated server. All of us divided by pairs were clients.
 
@@ -24,8 +32,10 @@ To start the server type `$ java -jar start.jar`. The server starts at localhost
 To run a client you have to install `gem 'codenjoy_connection'`.
 Then you need to register at `localhost:8080` and type your `name`, `port` and `host_ip` in client.rb.
 
-Source code of `client.rb`:
+## Source code
+
 ```ruby
+# client.rb
 require 'codenjoy_connection'
 require_relative 'player'
 
@@ -39,8 +49,8 @@ player = Player.new
 CodenjoyConnection.play(player, opts)
 ```
 
-Source code of `player.rb`:
 ```ruby
+# player.rb
 class Player
 
   MAX_X = 10
@@ -239,7 +249,7 @@ class Player
 end
 ```
 
-Sample video:
+## Video
 
 {% include video id="249877580" provider="vimeo" %}
 

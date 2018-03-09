@@ -3,10 +3,17 @@ title:  "Second homework"
 date:   2017-10-22
 header:
   teaser: /images/KOTD_New_Logo.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
 ---
 The second homework was to judge [King of the Dot][KOTD] rap battles.
 
 [![King of the Dot]({{ "/images/kotd.jpg" | absolute_url }}){: .align-center}][KOTD]
+
+## Objective
 
 The task was to determine winner in each battle.
 Lyrics were taken from [Genius.com][Genius].
@@ -17,8 +24,10 @@ You may also choose name of the participant and your own criteria.
 $ NAME=DNA CRITERIA=you ruby kotd.rb
 ```
 
-Source code of `kotd.rb`:
+## Source code
+
 ```ruby
+# kotd.rb
 require 'mechanize'
 require_relative 'kotd_battle'
 
@@ -85,8 +94,8 @@ criteria = ENV['CRITERIA']
 Kotd.new(name, criteria).run
 ```
 
-Source code of `kotd_battle.rb`:
 ```ruby
+# kotd_battle.rb
 require 'mechanize'
 
 class KotdBattle
@@ -160,7 +169,8 @@ class KotdBattle
 end
 ```
 
-Sample output looks like this:
+## Output
+
 ```
 $ NAME=DNA CRITERIA=you ruby kotd.rb
 Initializing...
@@ -231,7 +241,7 @@ DNA WINS!
 DNA wins 5 times, loses 6 times
 ```
 
-Sample video:
+## Video
 
 {% include video id="249878079" provider="vimeo" %}
 

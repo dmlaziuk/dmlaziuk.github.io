@@ -3,6 +3,8 @@ title:  "GoWay Meetup 1.1"
 date:   2017-12-13
 header:
   teaser: /images/gowayminsk.jpg
+tags:
+  - meetup
 ---
 Go meetup.
 

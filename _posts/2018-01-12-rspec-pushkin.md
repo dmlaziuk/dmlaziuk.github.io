@@ -3,15 +3,23 @@ title:  "RSpec my Pushkin"
 date:   2018-01-12
 header:
   teaser: /images/rspec.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
+  - testing
 ---
 Finaly added RSpec to Pushkin Contest Bot.
 
 ![RSpec][RSpecPushkin]{: .align-center}
 
+## Objective
+
 If I'd done this before, the results of Pushkin Contest would be much better.
 The reason is almost all tests fail when I run each level `ATTEMPTS=100` times.
 
-### Installation
+## Installation
 
 To install add to `Gemfile`:
 
@@ -26,7 +34,7 @@ $ bundle install
 $ rspec --init
 ```
 
-### Description
+## Description
 
 Definition of `Word`:
 
@@ -288,7 +296,7 @@ describe Pushkin, 'behaviour' do
 end
 ```
 
-### Runing tests
+## Runing tests
 
 To run tests:
 

@@ -3,6 +3,16 @@ title:  "Yandex Interface Development School"
 date:   2018-01-21
 header:
   teaser: /images/yandex_ids.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - css
+  - javascript
+  - design
+  - testing
+  - security
+  - debug
 ---
 Youtube videos of Yandex Interface Development School in 2013 (Moscow).
 

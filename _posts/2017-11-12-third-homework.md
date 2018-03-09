@@ -3,14 +3,22 @@ title:  "Third homework"
 date:   2017-11-12
 header:
   teaser: /images/lgbt.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
 ---
 Inspired by recent [coming out by Kevin Spacey](https://news.tut.by/culture/566702.html) the task was to write Telegram chat bot that finds out celebrities coming outs.
 
 [![CominoutBot]({{ "/images/lgbt.png" | absolute_url }}){: .align-center}][CominoutBot]
 
+## Description
+
 Instructions on creating Telegram bot and deploying it on Heroku described [here][Heroku].
 
 Data parsed from [wikipedia.org][Wikipedia] and [IMDB.com][IMDB] are stored in Redis database in the following format:
+
 ```
 lgbt:index (String) -- current index (increased on adding)
 
@@ -24,6 +32,7 @@ lgbt:name:__name__ (List) -- list of indexes names occurances in full names
 
 For example current index is `lgbt:index => "13"`.
 After adding "Kevin Spacey" and "Kevin Williamson" the following entries will be created:
+
 ```
 lgbt:13 =>
     name: "Kevin Spacey"
@@ -45,16 +54,21 @@ lgbt:name:williamson => "14"
 This bot runs on [heroku.com](https://herokuapp.com) and is available on Telegram as [@cominoutbot][CominoutBot]
 
 Used books:
+
 1. [The Little Redis Book][RedisBook]
 2. [Ferret][FerretBook]
 
+## Source code
+
 Source code of `Procfile`:
-```Procfile
+
+```yaml
 bot: ruby comingoutbot.rb
 ```
 
 Source code of `Gemfile`:
-```Gemfile
+
+```ruby
 ruby '2.4.1'
 
 gem 'ferret'
@@ -63,16 +77,16 @@ gem 'redis'
 gem 'telegram-bot-ruby'
 ```
 
-Source code of `comingoutbot.rb`:
 ```ruby
 #!/usr/bin/env ruby
+# comingoutbot.rb
 require_relative 'lib/comingout'
 
 Comingout::Bot.new.run
 ```
 
-Source code of `lib/comingout.rb`:
 ```ruby
+# lib/comingout.rb
 require_relative 'comingout/constants'
 require_relative 'comingout/comingout_db'
 require_relative 'comingout/parse_imdb'
@@ -81,8 +95,8 @@ require_relative 'comingout/parse_ru_wikipedia'
 require_relative 'comingout/bot'
 ```
 
-Source code of `lib/comingout/constants.rb`:
 ```ruby
+# lib/comingout/constants.rb
 module Comingout
   DB = 'lgbt'.freeze
   DB_INDEX = 'lgbt:index'.freeze
@@ -114,8 +128,8 @@ module Comingout
 end
 ```
 
-Source code of `lib/comingout/comingout_db.rb`:
 ```ruby
+# lib/comingout/comingout_db.rb
 require 'redis'
 require 'ferret'
 require_relative 'constants'
@@ -162,8 +176,8 @@ module Comingout
 end
 ```
 
-Source code of `lib/comingout/parse_imdb.rb`:
 ```ruby
+# lib/comingout/parse_imdb.rb
 require 'mechanize'
 require_relative 'constants'
 require_relative 'comingout_db'
@@ -198,8 +212,8 @@ module Comingout
 end
 ```
 
-Source code of `lib/comingout/parse_wikipedia.rb`:
 ```ruby
+# lib/comingout/parse_wikipedia.rb
 require 'mechanize'
 require_relative 'constants'
 require_relative 'comingout_db'
@@ -249,8 +263,8 @@ module Comingout
 end
 ```
 
-Source code of `lib/comingout/parse_ru_wikipedia.rb`:
 ```ruby
+# lib/comingout/parse_ru_wikipedia.rb
 require 'mechanize'
 require_relative 'constants'
 require_relative 'comingout_db'
@@ -293,8 +307,8 @@ module Comingout
 end
 ```
 
-Source code of `lib/comingout/bot.rb`:
 ```ruby
+# lib/comingout/bot.rb
 require 'telegram/bot'
 require_relative 'constants'
 require_relative 'comingout_db'
@@ -416,7 +430,7 @@ module Comingout
 end
 ```
 
-Sample video:
+## Video
 
 {% include video id="249877566" provider="vimeo" %}
 

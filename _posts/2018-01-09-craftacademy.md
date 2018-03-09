@@ -3,10 +3,20 @@ title:  "Craft Academy"
 date:   2018-01-09
 header:
   teaser: /images/craftacademy.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - linux
+  - git
+  - ruby
+  - javascript
 ---
 Interesting resource for (self-)education.
 
 [![CraftAcademy][CALogo]{: .align-center}][CA]
+
+## Books
 
 I used this resource during preparation for interview, also for self-education.
 There are several Craft Academy books available at GitBook:
@@ -20,7 +30,13 @@ Code Academy [GitHub link][CAGitHub].
 
 I've learned lots of techniques form that courses:
 
-- command prompt with git status: `$ brew install bash-git-prompt`
+## Links
+
+### Command prompt with git status
+
+```
+$ brew install bash-git-prompt
+```
 
 ```bash
 # ~/.bash_profile
@@ -29,7 +45,9 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 ```
 
-- git usage, `.gitconfig`:
+### Git usage
+
+`.gitconfig`:
 
 ```
 [user]
@@ -70,7 +88,10 @@ spush = svn dcommit
 ```
 
 - [How to Write a Git Commit Message][GitCommit]
-- Linux [Command Line][CLI]
+
+### Linux
+
+[Command Line][CLI]
 
 Key/Command|Description
 ----------:|:----------
@@ -94,8 +115,13 @@ Esc + B    |Move cursor one word backward
 Esc + T    |Swap the last two words before the cursor
 Tab        |Auto-complete files and folder names
 
+### JavaScript
+
 - [javascript basics][JS]
 - [jquery basics][jquery]
+
+### Other resources
+
 - [GitHub Pages][GitHubPages]
 - [Atom][Atom]
 - motivated me to use RSpec for a primary development process (TDD)

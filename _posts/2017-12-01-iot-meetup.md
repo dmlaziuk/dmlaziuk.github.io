@@ -3,6 +3,9 @@ title:  "IoT Meetup"
 date:   2017-12-01
 header:
   teaser: /images/iot_meetup.png
+tags:
+  - meetup
+  - IoT
 ---
 Internet of Things meetup.
 

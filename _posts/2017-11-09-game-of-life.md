@@ -3,13 +3,21 @@ title:  "Game of Life"
 date:   2017-11-09
 header:
   teaser: /images/gospers_glider_gun.gif
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
+  - contest
 ---
 On the third workshop we had to write our own implementation of the Game of Life.
 
 [![Life]({{ "/images/gospers_glider_gun.gif" | absolute_url }}){: .align-center}][Life]
 
-Source code of `life.rb`:
+## Source code
+
 ```ruby
+# life.rb
 require_relative 'game_of_life'
 
 life = GameOfLife.new
@@ -23,8 +31,8 @@ loop do
 end
 ```
 
-Source code of `game_of_life.rb`:
 ```ruby
+# game_of_life.rb
 class GameOfLife
   X_SIZE = 100
   Y_SIZE = 50
@@ -71,7 +79,7 @@ class GameOfLife
 end
 ```
 
-Sample video:
+## Video
 
 {% include video id="249877584" provider="vimeo" %}
 

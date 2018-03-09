@@ -1,11 +1,11 @@
 main:
-  - title: "About"
+  - title: About
     url: /about/
-  - title: "Achievements"
+  - title: Achievements
     url: /achievements/
-  - title: "Courses"
+  - title: Courses
     url: /courses/
-  - title: "Projects"
+  - title: Projects
     url: /projects/
-  - title: "Skills"
+  - title: Skills
     url: /skills/

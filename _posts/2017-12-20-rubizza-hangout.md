@@ -3,6 +3,9 @@ title:  "Rubizza Hangout. Utche#3"
 date:   2017-12-20
 header:
   teaser: /images/rubizza.png
+tags:
+  - meetup
+  - ruby
 ---
 Ruby meetup.
 

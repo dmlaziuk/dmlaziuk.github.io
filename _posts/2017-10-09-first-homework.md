@@ -3,16 +3,26 @@ title:  "First homework"
 date:   2017-10-09
 header:
   teaser: /images/Binary_tree.svg
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - ruby
 ---
 The first homework was challenging. It was about traversing binary trees.
+
+## Objective
 
 The task was to parse data stored in binary tree and visualize the tree.
 
 For example given array:
+
 ```ruby
 arr = [1 ,[[2 ,[4 , 5 ]],[3,[6,7]]]]
 ```
+
 You have to output something like this:
+
 ```
       1
      /  \
@@ -20,12 +30,15 @@ You have to output something like this:
    / \  / \
   4  5 6  7
 ```
+
 There were 3 levels:
+
 1. Read trees from zip-file, select tree with given name `$ NAME=mel ruby trees.rb` and print it out to console.
 2. If not given a NAME print out all trees in ascending order.
 3. Same as previous, but warn if depth of the tree greater then 5 or sum of all leaves is greater then 5000.
 
-The code for all 3 levels is here:
+## Source code
+
 ```ruby
 require 'zip'
 require 'json'
@@ -182,7 +195,8 @@ else
 end
 ```
 
-Sample output looks like this:
+## Output
+
 ```
 $ ruby trees.rb
 trees/alica.tree
@@ -204,7 +218,8 @@ Proceeded 1 trees, which:
 -- cut 0
 Thanks for being in our forest
 ```
-Sample video:
+
+## Video
 
 {% include video id="249877592" provider="vimeo" %}
 

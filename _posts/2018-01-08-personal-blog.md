@@ -3,10 +3,17 @@ title:  "Creating personal blog"
 date:   2018-01-08
 header:
   teaser: /images/jekyll.png
+toc: true
+toc_label: Index
+toc_icon: "hand-point-right"
+tags:
+  - interview
 ---
 Creating personal blog based on GitHub.
 
 [![Jekyll]({{ "/images/jekyll.png" | absolute_url }}){: .align-center}][Jekyll]
+
+## Objective
 
 I decided to start document every step I made during my learning path.
 
@@ -30,7 +37,7 @@ In my blog I use [Minimal Mistakes][MM] theme.
 
 [![Blog][BlogImg]{: .align-center}][BlogImg]
 
-### Jekyll installation
+## Installation
 
 Jekyll is a Ruby gem. To install type:
 
@@ -43,7 +50,7 @@ $ git init
 $ git remote add origin https://github.com/dmlaziuk/dmlaziuk.github.io.git
 ```
 
-Directory structure:
+## Directory structure
 
 ```
 |-_data
@@ -79,18 +86,18 @@ Directory structure:
 |-index.html
 ```
 
-`Gemfile`:
+## Config
 
 ```ruby
+# Gemfile
 gem 'minimal-mistakes-jekyll'
 group :jekyll_plugins do
   gem 'github-pages'
 end
 ```
 
-`_config.yml`:
-
 ```yaml
+# _config.yml
 title: Learning curve
 author: Dzmitry Laziuk
 email: dm.laziuk@gmail.com
@@ -144,9 +151,8 @@ defaults:
       author_profile: true
 ```
 
-`index.html`:
-
 ```html
+<!-- index.html -->
 {% raw %}
 ---
 layout: archive
@@ -180,6 +186,8 @@ $ git add .
 $ git commit -m 'initial commit'
 $ git push origin master
 ```
+
+## Links
 
 Now your site is available at `https://yourname.github.io`.
 

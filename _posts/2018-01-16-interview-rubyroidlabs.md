@@ -3,6 +3,8 @@ title:  "Interview at Rubyroid Labs"
 date:   2018-01-16
 header:
   teaser: /images/job_answers.png
+tags:
+  - interview
 ---
 My first interview.
 
