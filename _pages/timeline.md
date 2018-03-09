@@ -44,8 +44,8 @@ permalink: /timeline/
 * 2018-01-24 ruby meetup Minsk.rb
 * 2018-01-25 javascript meetup MinskJS
 * 2018-01-25 Learning Plan to Vue.js
-* 2018-02-04 5 Soft skills every developer should know
-* 2018-02-05 Calendar.vue on Rails
+* 2018-02-04 Calendar.vue on Rails
+* 2018-02-05-5-soft-skills.md
 * 2018-02-06 Google PWA
 * 2018-02-10 The Rolling Scopes
 * 2018-02-15 mtdv.io Demo model
