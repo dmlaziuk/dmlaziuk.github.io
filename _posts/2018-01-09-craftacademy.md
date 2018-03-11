@@ -1,17 +1,18 @@
 ---
-title:  "Craft Academy"
+title:  Craft Academy
 date:   2018-01-09
 header:
   teaser: /images/craftacademy.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - linux
-  - git
-  - ruby
-  - javascript
+  - Linux
+  - Git
+  - Ruby
+  - JavaScript
 ---
+
 Interesting resource for (self-)education.
 
 [![CraftAcademy][CALogo]{: .align-center}][CA]

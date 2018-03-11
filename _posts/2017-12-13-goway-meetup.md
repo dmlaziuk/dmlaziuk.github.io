@@ -1,11 +1,12 @@
 ---
-title:  "GoWay Meetup 1.1"
+title:  GoWay Meetup 1.1
 date:   2017-12-13
 header:
   teaser: /images/gowayminsk.jpg
 tags:
-  - meetup
+  - Meetup
 ---
+
 Go meetup.
 
 [![GoWay Meetup]({{ "/images/goway_meetup1_1.png" | absolute_url }}){: .align-center}][Meetup]

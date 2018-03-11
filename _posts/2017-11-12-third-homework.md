@@ -1,14 +1,15 @@
 ---
-title:  "Third homework"
+title:  Third homework
 date:   2017-11-12
 header:
   teaser: /images/lgbt.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
+  - Ruby
 ---
+
 Inspired by recent [coming out by Kevin Spacey](https://news.tut.by/culture/566702.html) the task was to write Telegram chat bot that finds out celebrities coming outs.
 
 [![CominoutBot]({{ "/images/lgbt.png" | absolute_url }}){: .align-center}][CominoutBot]

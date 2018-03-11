@@ -1,14 +1,15 @@
 ---
-title:  "5 Soft skills every developer should know"
+title:  5 Soft skills every developer should know
 date:   2018-02-05
 header:
   teaser: /images/SP.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - "soft skills"
+  - Soft skills
 ---
+
 John Somnez youtube video from Xamarin Evolve 2016 Talk.
 
 {% include video id="cVC3DQvAAIA" provider="youtube" %}

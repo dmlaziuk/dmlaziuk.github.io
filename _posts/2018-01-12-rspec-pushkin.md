@@ -1,15 +1,16 @@
 ---
-title:  "RSpec my Pushkin"
+title:  RSpec my Pushkin
 date:   2018-01-12
 header:
   teaser: /images/rspec.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
-  - testing
+  - Ruby
+  - Testing
 ---
+
 Finaly added RSpec to Pushkin Contest Bot.
 
 ![RSpec][RSpecPushkin]{: .align-center}

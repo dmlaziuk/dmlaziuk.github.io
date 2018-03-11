@@ -1,11 +1,12 @@
 ---
-title:  "Interview at Rubyroid Labs"
+title:  Interview at Rubyroid Labs
 date:   2018-01-16
 header:
   teaser: /images/job_answers.png
 tags:
-  - interview
+  - Interview
 ---
+
 My first interview.
 
 ![Interview][Interview]{: .align-center}

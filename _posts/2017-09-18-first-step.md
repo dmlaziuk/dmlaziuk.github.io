@@ -1,10 +1,10 @@
 ---
-title:  "Long road starts with the first step"
+title:  Long road starts with the first step
 date:   2017-10-03
 header:
   teaser: /images/first-step.png
 tags:
-  - interview
+  - Interview
 ---
 
 In my 38 years old I decided to change my career from Building industry to Software engineering.

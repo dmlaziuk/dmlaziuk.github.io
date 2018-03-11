@@ -1,14 +1,15 @@
 ---
-title:  "Second homework"
+title:  Second homework
 date:   2017-10-22
 header:
   teaser: /images/KOTD_New_Logo.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
+  - Ruby
 ---
+
 The second homework was to judge [King of the Dot][KOTD] rap battles.
 
 [![King of the Dot]({{ "/images/kotd.jpg" | absolute_url }}){: .align-center}][KOTD]

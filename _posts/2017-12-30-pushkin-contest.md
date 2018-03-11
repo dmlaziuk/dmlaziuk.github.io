@@ -1,15 +1,16 @@
 ---
-title:  "Pushkin contest"
+title:  Pushkin contest
 date:   2017-12-30
 header:
   teaser: /images/pushkin.gif
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
-  - contest
+  - Ruby
+  - Contest
 ---
+
 The resulting project of Ruby courses.
 
 [![Pushkin]({{ "/images/pushkin.gif" | absolute_url }}){: .align-center}][Pushkin]

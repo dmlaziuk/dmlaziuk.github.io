@@ -1,12 +1,13 @@
 ---
-title:  "Rubizza Hangout. Utche#3"
+title:  Rubizza Hangout. Utche#3
 date:   2017-12-20
 header:
   teaser: /images/rubizza.png
 tags:
-  - meetup
-  - ruby
+  - Meetup
+  - Ruby
 ---
+
 Ruby meetup.
 
 [![Rubizza Hangout]({{ "/images/rubizza_hangout.jpg" | absolute_url }}){: .align-center}][Rubizza]

@@ -1,11 +1,12 @@
 ---
-title:  "Placement letter"
+title:  Placement letter
 date:   2018-01-08
 header:
   teaser: /images/rubyroid_logo_autumn.svg
 tags:
-  - interview
+  - Interview
 ---
+
 I send my first placement letter.
 
 [![Rubyroid][RubyroidImg]{: .align-center}][Rubyroid]

@@ -1,16 +1,17 @@
 ---
-title:  "Youtube lectures"
+title:  Youtube lectures
 date:   2017-10-04
 header:
   teaser: /images/YouTube_Logo.svg
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
-  - linux
-  - rails
+  - Ruby
+  - Linux
+  - Rails
 ---
+
 All lectures from the Ruby on Rails course are available on [Youtube](https://www.youtube.com/watch?v=t7r9qeLuy5M&list=PL9LUlh0qu4656iJ4J8gMfOE6YiZ4QJ5bl).
 
 ## 1. Ubuntu install. Linux basics. RVM and Ruby install. Ruby Pros and Cons

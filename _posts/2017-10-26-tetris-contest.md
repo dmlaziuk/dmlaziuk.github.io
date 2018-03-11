@@ -1,15 +1,16 @@
 ---
-title:  "Tetris contest"
+title:  Tetris contest
 date:   2017-10-26
 header:
   teaser: /images/tetris.svg
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
-  - contest
+  - Ruby
+  - Contest
 ---
+
 On the second workshop we were struggling on tetris contest.
 
 [![codenjoy.com]({{ "/images/codenjoy.jpg" | absolute_url }}){: .align-center}][Server]

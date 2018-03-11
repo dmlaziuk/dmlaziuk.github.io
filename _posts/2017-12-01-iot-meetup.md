@@ -1,12 +1,13 @@
 ---
-title:  "IoT Meetup"
+title:  IoT Meetup
 date:   2017-12-01
 header:
   teaser: /images/iot_meetup.png
 tags:
-  - meetup
+  - Meetup
   - IoT
 ---
+
 Internet of Things meetup.
 
 [![IoT Meetup]({{ "/images/iot_meetup.png" | absolute_url }}){: .align-center}][Meetup]

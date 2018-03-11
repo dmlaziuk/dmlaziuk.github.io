@@ -1,15 +1,16 @@
 ---
-title:  "Preparation for interview"
+title:  Preparation for interview
 date:   2018-01-15
 header:
   teaser: /images/mindmap.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - interview
-  - ruby
+  - Interview
+  - Ruby
 ---
+
 My preparation for Ruby on Rails interview.
 
 ![Mindmap][Mindmap]{: .align-center}

@@ -1,14 +1,15 @@
 ---
-title:  "Fourth homework"
+title:  Fourth homework
 date:   2017-11-28
 header:
   teaser: /images/b2b.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
+  - Ruby
 ---
+
 The main theme of this homework is to connect people affected by hype in both bitcoins and bonsticks.
 
 [![B2B]({{ "/images/b2b.png" | absolute_url }}){: .align-center}][AWS]

@@ -1,14 +1,15 @@
 ---
-title:  "First homework"
+title:  First homework
 date:   2017-10-09
 header:
   teaser: /images/Binary_tree.svg
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - ruby
+  - Ruby
 ---
+
 The first homework was challenging. It was about traversing binary trees.
 
 ## Objective

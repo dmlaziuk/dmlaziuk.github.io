@@ -1,14 +1,15 @@
 ---
-title:  "Creating personal blog"
+title:  Creating personal blog
 date:   2018-01-08
 header:
   teaser: /images/jekyll.png
 toc: true
 toc_label: Index
-toc_icon: "hand-point-right"
+toc_icon: hand-point-right
 tags:
-  - interview
+  - Interview
 ---
+
 Creating personal blog based on GitHub.
 
 [![Jekyll]({{ "/images/jekyll.png" | absolute_url }}){: .align-center}][Jekyll]
