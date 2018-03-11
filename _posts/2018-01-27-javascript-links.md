@@ -21,6 +21,11 @@ Usefull JavaScript resources
 * [CodeCademy — Learn JavaScript][JS]
 * [CodeCademy — Introduction to jQuery][jquery]
 * [Jasmine — BDD framework for testing JavaScript code][Jasmine]
+* [JavaScript.ru][JSru]
+* [Learn ES2015 with Babel][Babeljs]
+* [ECMA-262][ECMA262]
+* [ReactiveX][RXjs]
+* [VueStrap — Bootstrap components built with Vue.js][VueStrap]
 
 [Trends]: https://medium.freecodecamp.org/i-just-asked-23-000-developers-what-they-think-of-javascript-heres-what-i-learned-9a06b61998fa
 [TrendsRU]: https://tproger.ru/translations/javascript-trends-2018/
@@ -32,3 +37,8 @@ Usefull JavaScript resources
 [JS]: https://www.codecademy.com/learn/learn-javascript
 [jquery]: https://www.codecademy.com/learn/learn-jquery
 [Jasmine]: https://jasmine.github.io
+[JSru]: https://learn.javascript.ru/js
+[Babeljs]: https://babeljs.io/learn-es2015/
+[ECMA262]: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+[RXjs]: http://reactivex.io
+[VueStrap]: https://yuche.github.io/vue-strap/
