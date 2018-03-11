@@ -36,7 +36,7 @@ permalink: /timeline/
 * 2018-01-12-rspec-pushkin.md
 * 2018-01-15-preparation-for-interview.md
 * 2018-01-16-interview-rubyroidlabs.md
-* 2018-01-17 WebDevDay meetup
+* 2018-01-17-webdevday-meetup.md
 * 2018-01-18 job offer from Rubyroid labs
 * 2018-01-21-yandex-interface-school.md
 * 2018-01-22 start working at Rubyroid labs
@@ -44,6 +44,7 @@ permalink: /timeline/
 * 2018-01-24 ruby meetup Minsk.rb
 * 2018-01-25 javascript meetup MinskJS
 * 2018-01-25 Learning Plan to Vue.js
+* 2018-01-27 JavaScript links
 * 2018-02-04 Calendar.vue on Rails
 * 2018-02-05-5-soft-skills.md
 * 2018-02-06 Google PWA
