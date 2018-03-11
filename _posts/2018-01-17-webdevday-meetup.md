@@ -35,9 +35,9 @@ CMS, SEO, webmaster meetup.
 * Production version runs with test contents
 * Dump pages indexed by robots
 * No web analytics added to production
-* Site doesn't added to Google/Yandex search console
+* Site not added to Google/Yandex search console
 * Developing on Production version of site
-* No backup
+* No backups
 
 ## Links
 
